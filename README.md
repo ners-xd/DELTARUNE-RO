@@ -2,7 +2,7 @@
 <b>NOTĂ</b>: Această pagină este doar pentru development. Pentru lansări oficiale ale modului, intră [aici](https://douper.itch.io/deltromana).
 
 Această traducere a fost începută de Douper și am reușit să creăm un mod care traduce tot jocul DELTARUNE în limba română.
-Dacă întâmpinați probleme, nu uitați să le raportați ori pe [server-ul de Discord](https://discord.gg/d74nGytPJH) ori aici printr-un Issue sau Pull Request.
+Dacă întâmpini probleme, nu uita să le raportezi ori pe [server-ul de Discord](https://discord.gg/d74nGytPJH) ori aici printr-un Issue sau Pull Request.
 
 # Contribuire
 Cum să contribui la mod:
