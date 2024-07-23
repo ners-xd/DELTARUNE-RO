@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.png" title="Logo: DELTARUNE în Română">
+</p>
+
 # DELTARUNE Capitolul 1&2 în Română
 <b>NOTĂ</b>: Această pagină este doar pentru development. Pentru lansări oficiale ale modului, intră [aici](https://douper.itch.io/deltromana).
 
