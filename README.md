@@ -15,5 +15,5 @@ Cum să contribui la mod:
 
 # Credite
 - Creator: Douper;
-- Traducere: Cheo, NERS, Salt, psychotic1_;
-- Ajutor la unele sprite-uri mai complicate: hugothewaffle.
+- Traducere: Cheo, NERS, Salt, psychotic1;
+- Ajutor pentru unele sprite-uri mai complicate: hugothewaffle.
