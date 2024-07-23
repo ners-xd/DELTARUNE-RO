@@ -6,7 +6,7 @@ Dacă întâmpinați probleme, nu uitați să le raportați ori pe [server-ul de
 
 # Contribuire
 Cum să contribui la mod:
-- Clonează repo-ul și descarcă fișierele;
+- Creează un fork al repo-ul și descarcă fișierele;
 - Descarcă scriptul [UMP](https://github.com/nhaar/ump/releases) și pune-l în folderul principal al modului (în același folder cu ch1&2.csx și main.csx);
 - Folosește [această](https://github.com/underminersteam/undertalemodtool/pull/1504#issuecomment-1851898158) versiune de UndertaleModTool (GUI-windows-latest-isBundled-false-isSingleFile-true) până Pull Request-ul este aprobat (nu știm când sau dacă se va întâmpla asta);
 - Deschide data.win-ul jocului, apasă sus pe Scripts -> Run other script... -> ch1&2.csx pentru a importa modul și poți salva fișierul (versiunile suportate sunt 1.08 - 1.15);
