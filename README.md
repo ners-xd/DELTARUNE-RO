@@ -14,6 +14,5 @@ Cum să contribui la mod:
 - Dacă ai făcut niște modificări și vrei să fie adăugate în mod, deschide un Pull Request și ne vom uita peste el.
 
 # Credite
-- Creator: Douper;
-- Traducere: Cheo, NERS, Salt, psychotic1;
+- Traducere: <b>Douper</b>, Cheo, NERS, Salt, psychotic1;
 - Ajutor pentru unele sprite-uri mai complicate: hugothewaffle.
