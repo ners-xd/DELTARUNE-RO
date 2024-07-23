@@ -1,4 +1,4 @@
-# DELTARUNE în Română
+# DELTARUNE Capitolul 1&2 în Română
 <b>NOTĂ</b>: Această pagină este doar pentru development. Pentru lansări oficiale ale modului, intră [aici](https://douper.itch.io/deltromana).
 
 Această traducere a fost începută de Douper și am reușit să creăm un mod care traduce tot jocul DELTARUNE în limba română.
