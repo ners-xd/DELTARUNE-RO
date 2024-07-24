@@ -19,4 +19,5 @@ Cum să contribui la mod:
 
 # Credite
 - Traducere: <b>Douper</b>, Cheo, NERS, Salt, psychotic1;
-- Ajutor pentru unele sprite-uri mai complicate: hugothewaffle.
+- Ajutor pentru unele sprite-uri mai complicate: hugothewaffle;
+- UMP: nhaar.
