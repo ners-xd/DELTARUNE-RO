@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" title="Logo: DELTARUNE în Română">
+  <img src="deltarune-ro-logo.png" title="Logo: DELTARUNE în Română">
 </p>
 
 # DELTARUNE Capitolul 1&2 în Română
