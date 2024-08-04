@@ -24,16 +24,6 @@ class ROLoader : UMPLoader
     public ROLoader(UMPWrapper wrapper) : base(wrapper) {}
 }
 
-void deleteDirectory(string path)
-{
-    foreach(string directory in Directory.GetDirectories(path))
-        deleteDirectory(directory);
-
-    try { Directory.Delete(path, true); }
-    catch(IOException) { Directory.Delete(path, true); }
-    catch(UnauthorizedAccessException) { Directory.Delete(path, true); }
-}
-
 void BuildMod()
 {
     ROLoader loader = new ROLoader(UMP_WRAPPER);
@@ -56,7 +46,6 @@ void BuildMod()
     RunUMTScript(Path.Combine(umtScriptsDir, "ImportAllTilesets.csx"));
 
     loader.Load();
-    deleteDirectory(Path.Combine(scriptDir, "DecompileCache")); // Nu face nimic acest folder după ce se construiește modul dar totuși ocupă spațiu degeaba
-
+    
     ScriptMessage("DELTARUNE Capitolul 1&2 în Română a fost importat cu succes!");
 }
