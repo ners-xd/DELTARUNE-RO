@@ -22,18 +22,28 @@
                     if (__actname == "N-Action")
                         __actname = __plainactname
 /// CODE
-                    if (__actname == "Actiune-S")
+                    if (__actname == "Acțiune-S")
                         __actname = __plainactname
-                    if (__actname == "Actiune-R")
+                    if (__actname == "Acțiune-R")
                         __actname = __plainactname
-                    if (__actname == "Actiune-N")
+                    if (__actname == "Acțiune-N")
                         __actname = __plainactname
 /// END
 
 /// REPLACE
+    draw_set_color(c_orange)
     draw_text((xx + spell_offset), (yy + 440), string_hash_to_newline(string(thiscost) + "% TP"))
 /// CODE
+    draw_set_color(c_orange)
     draw_text((xx + spell_offset), (yy + 440), string_hash_to_newline(string(thiscost) + "% PT"))
+/// END
+
+/// REPLACE
+    if (thiscost > 0)
+        draw_text((xx + spell_offset), (yy + 440), string_hash_to_newline(string(thiscost) + "% TP"))
+/// CODE
+    if (thiscost > 0)
+        draw_text((xx + spell_offset), (yy + 440), string_hash_to_newline(string(thiscost) + "% PT"))
 /// END
 
 /// REPLACE
