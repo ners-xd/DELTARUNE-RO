@@ -17,7 +17,7 @@
     var cancel_text = (global.lang == "en") ? "Nu juca" : "もどる";
 /// END
 
-// UTMT Community Edition compiler bugfix
+// UTMT Community Edition compiler bug fix
 /// REPLACE
         _completed_files[array_length(_completed_files)] = is_completed
 /// CODE
