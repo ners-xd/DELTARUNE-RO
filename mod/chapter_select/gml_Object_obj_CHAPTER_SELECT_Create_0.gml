@@ -1,10 +1,5 @@
 /// PATCH
 
-// Setăm volumul la 60% să nu fie prea tare
-/// PREPEND
-audio_set_master_gain(0, 0.6);
-/// END
-
 /// REPLACE
     var start_text = (global.lang == "en" ? "Would you like to start from Chapter 1?" : "Chapter 1から始めますか？")
     var yes_text = (global.lang == "en" ? "Yes" : "はい")
