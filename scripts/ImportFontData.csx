@@ -1,6 +1,6 @@
 // Texture packer by Samuel Roy
 // Uses code from https://github.com/mfascia/TexturePacker
-// Modified by NERS for UMP usage
+// Modified by NERS for UMP usage (Underanalyzer)
 
 using System;
 using System.IO;
@@ -34,18 +34,18 @@ string prefix = outName.Replace(Path.GetExtension(outName), "");
 int atlasCount = 0;
 foreach (Atlas atlas in packer.Atlasses)
 {
-    string atlasName = String.Format(prefix + "{0:000}" + ".png", atlasCount);
+    string atlasName = $"{prefix}{atlasCount:000}.png";
     Bitmap atlasBitmap = new Bitmap(atlasName);
     UndertaleEmbeddedTexture texture = new UndertaleEmbeddedTexture();
-    texture.Name = new UndertaleString("Texture " + ++lastTextPage);
-    texture.TextureData.TextureBlob = File.ReadAllBytes(atlasName);
+    texture.Name = new UndertaleString($"Texture {++lastTextPage}");
+    texture.TextureData.Image = GMImage.FromPng(File.ReadAllBytes(atlasName)); // TODO: generate other formats
     Data.EmbeddedTextures.Add(texture);
     foreach (Node n in atlas.Nodes)
     {
         if (n.Texture != null)
         {
             UndertaleTexturePageItem texturePageItem = new UndertaleTexturePageItem();
-            texturePageItem.Name = new UndertaleString("PageItem " + ++lastTextPageItem);
+            texturePageItem.Name = new UndertaleString($"PageItem {++lastTextPageItem}");
             texturePageItem.SourceX = (ushort)n.Bounds.X;
             texturePageItem.SourceY = (ushort)n.Bounds.Y;
             texturePageItem.SourceWidth = (ushort)n.Bounds.Width;
@@ -86,7 +86,7 @@ foreach (Atlas atlas in packer.Atlasses)
 
 public void fontUpdate(UndertaleFont newFont)
 {
-    using (StreamReader reader = new StreamReader(Path.Combine(sourcePath, "glyphs_" + newFont.Name.Content + ".csv")))
+    using (StreamReader reader = new StreamReader(Path.Combine(sourcePath, $"glyphs_{newFont.Name.Content}.csv")))
     {
         newFont.Glyphs.Clear();
         string line;
@@ -247,7 +247,7 @@ public class Packer
         tw.WriteLine("source_tex, atlas_tex, x, y, width, height");
         foreach (Atlas atlas in Atlasses)
         {
-            string atlasName = String.Format(prefix + "{0:000}" + ".png", atlasCount);
+            string atlasName = $"{prefix}{atlasCount:000}.png";
             //1: Save images
             Image img = CreateAtlasImage(atlas);
             //DPI fix start

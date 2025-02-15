@@ -1,17 +1,53 @@
 // Adapted from original script by Grossley
-// Modified by NERS for UMP usage
+// Modified by NERS for UMP usage (Underanalyzer)
 
 using System.Text;
 using System;
 using System.IO;
-using System.Drawing;
 using System.Threading;
 using System.Threading.Tasks;
+using UndertaleModLib.Util;
+using ImageMagick;
 
 EnsureDataLoaded();
 
-string subPath = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/tilesets");
-await ImportTilesets();
+string subPath = "";
+switch(Data?.GeneralInfo?.DisplayName?.Content)
+{
+    case "DELTARUNE Chapter Select":
+        subPath = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter_select/tilesets");
+        break;
+
+    case "DELTARUNE Chapter 1":
+        subPath = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter1/tilesets");
+        break;
+
+    case "DELTARUNE Chapter 2":
+        subPath = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter2/tilesets");
+        break;
+
+    case "DELTARUNE Chapter 3":
+        subPath = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter3/tilesets");
+        break;
+
+    case "DELTARUNE Chapter 4":
+        subPath = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter4/tilesets");
+        break;
+
+    case "DELTARUNE Chapter 5":
+        subPath = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter5/tilesets");
+        break;
+
+    case "DELTARUNE Chapter 6":
+        subPath = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter6/tilesets");
+        break;
+
+    case "DELTARUNE Chapter 7":
+        subPath = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter7/tilesets");
+        break;
+}
+
+ImportTilesets();
 
 async Task ImportTilesets()
 {
@@ -20,17 +56,18 @@ async Task ImportTilesets()
 
 void ImportTileset(UndertaleBackground tileset)
 {
+    string filename = $"{tileset.Name.Content}.png";
     try
     {
-        string path = Path.Combine(subPath, tileset.Name.Content + ".png");
-        if(File.Exists(path))
+        string path = Path.Combine(subPath, filename);
+        if (File.Exists(path))
         {
-            Bitmap img = new Bitmap(path);
-            tileset.Texture.ReplaceTexture((Image)img);
+            using MagickImage img = TextureWorker.ReadBGRAImageFromFile(path);
+            tileset.Texture.ReplaceTexture(img);
         }
     }
-    catch(Exception ex)
+    catch (Exception ex)
     {
-        ScriptMessage($"Failed to import file {tileset.Name} (index - {Data.Backgrounds.IndexOf(tileset)}) due to: " + ex.Message);
+        ScriptMessage($"Failed to import {filename} (index {Data.Backgrounds.IndexOf(tileset)}): {ex.Message}");
     }
 }

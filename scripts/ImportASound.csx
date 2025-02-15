@@ -4,7 +4,7 @@
 // By Jockeholm & Nik the Neko - Version 4 06/03/2020 - Specify audiogroup name with a folder name.
 // By Jockeholm & Nik the Neko - Version 3 03/01/2020 - Massive im_purr_ovements.
 // By Jockeholm                - Version 2 15/02/2020 - Currently supports embedded WAV files only
-// Modified by NERS for UMP usage
+// Modified by NERS for UMP usage (Underanalyzer)
 
 using System.Windows.Forms;
 using UndertaleModLib;
@@ -20,30 +20,82 @@ string GetFolder(string path)
 }
 
 UndertaleEmbeddedAudio audioFile = null;
-int    audioID              = -1;
-int    audioGroupID         = -1;
-int    embAudioID           = -1;
-bool   usesAGRP             = (Data.AudioGroups.Count > 0);
-string path                 = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/sounds");
+int    audioID      = -1;
+int    audioGroupID = -1;
+int    embAudioID   = -1;
+bool   usesAGRP     = (Data.AudioGroups.Count > 0);
+string path = "";
+switch(Data?.GeneralInfo?.DisplayName?.Content)
+{
+    case "DELTARUNE Chapter Select":
+        path = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter_select/sounds");
+        break;
+
+    case "DELTARUNE Chapter 1":
+        path = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter1/sounds");
+        break;
+
+    case "DELTARUNE Chapter 2":
+        path = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter2/sounds");
+        break;
+
+    case "DELTARUNE Chapter 3":
+        path = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter3/sounds");
+        break;
+
+    case "DELTARUNE Chapter 4":
+        path = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter4/sounds");
+        break;
+
+    case "DELTARUNE Chapter 5":
+        path = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter5/sounds");
+        break;
+
+    case "DELTARUNE Chapter 6":
+        path = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter6/sounds");
+        break;
+
+    case "DELTARUNE Chapter 7":
+        path = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter7/sounds");
+        break;
+}
 
 foreach(DirectoryInfo dir in new DirectoryInfo(path).GetDirectories())
 {
     foreach(FileInfo file in dir.GetFiles())
     {
+        string fname      = file.Name;
+        string sound_name = fname.Substring(0, fname.LastIndexOf('.')); // creates a string of the wav file's filename without it's extension
+        bool   isOGG      = Path.GetExtension(fname) == ".ogg";
+        bool   embedSound = false;
+        bool   decodeLoad = false;
+        if (isOGG)
+        {
+            embedSound = ScriptQuestion("Your sound appears to be an OGG.\nNo - keep it external\nYes - embed sound into the game (use responsibly!)");
+            decodeLoad = false;
+            if (embedSound)
+            {
+                decodeLoad = ScriptQuestion("Do you want to Uncompress this sound on load? (Higher Memory, low CPU)");
+            }
+        }
+        else
+        {
+            // How can a .wav be external?
+            embedSound = true;
+            decodeLoad = false;
+        }
         string AGRPname    = "";
-        bool   needAGRP    = true;
-        bool   ifRightAGRP = false;
         string FolderName  = dir.Name;
-        string fname       = file.Name;
-        string sound_name  = fname.Substring(0, fname.LastIndexOf('.')); // creates a string of the wav file's filename without it's extension
+        bool   needAGRP    = false;
+        bool   ifRightAGRP = false;
         string[] splitArr  = new string[2];
         splitArr[0] = sound_name;
         splitArr[1] = FolderName;
-
+        
         bool soundExists = false;
-
+        
         UndertaleSound existing_snd = null;
-
+        
         for (var i = 0; i < Data.Sounds.Count; i++)
         {
             if (Data.Sounds[i].Name.Content == sound_name)
@@ -54,10 +106,10 @@ foreach(DirectoryInfo dir in new DirectoryInfo(path).GetDirectories())
             }
         }
 
-        if (usesAGRP)
+        if (needAGRP && usesAGRP && embedSound)
         {
             AGRPname     = splitArr[1];
-            ifRightAGRP  = (needAGRP);
+            ifRightAGRP  = (needAGRP && embedSound);
             if (ifRightAGRP)
             {
                 while (audioGroupID == -1)
@@ -106,14 +158,18 @@ foreach(DirectoryInfo dir in new DirectoryInfo(path).GetDirectories())
             
         UndertaleEmbeddedAudio soundData = null;
 
-        soundData = new UndertaleEmbeddedAudio() { Data = File.ReadAllBytes(Path.Combine(path, FolderName, fname)) };
-        Data.EmbeddedAudio.Add(soundData);
-        if (soundExists)
-            Data.EmbeddedAudio.Remove(existing_snd.AudioFile);
-        embAudioID = Data.EmbeddedAudio.Count - 1;
-        //ScriptMessage("len " + Data.EmbeddedAudio[embAudioID].Data.Length.ToString());
+        if ((embedSound && !needAGRP) || (needAGRP))
+        {
+            soundData = new UndertaleEmbeddedAudio() { Data = File.ReadAllBytes(Path.Combine(path, FolderName, fname)) };
+            Data.EmbeddedAudio.Add(soundData);
+            if (soundExists)
+                Data.EmbeddedAudio.Remove(existing_snd.AudioFile);
+            embAudioID = Data.EmbeddedAudio.Count - 1;
+            //ScriptMessage("len " + Data.EmbeddedAudio[embAudioID].Data.Length.ToString());
+        }
+        
         //ScriptMessage("11");
-
+        
         if (needAGRP)
         {
             var audioGroupReadStream =
@@ -135,29 +191,43 @@ foreach(DirectoryInfo dir in new DirectoryInfo(path).GetDirectories())
         }
 
         UndertaleSound.AudioEntryFlags flags = UndertaleSound.AudioEntryFlags.Regular;
-
-        flags = UndertaleSound.AudioEntryFlags.IsEmbedded   | UndertaleSound.AudioEntryFlags.Regular;
-
+        
+        if (isOGG && embedSound && decodeLoad)  // OGG, embed, decode on load.
+            flags = UndertaleSound.AudioEntryFlags.IsEmbedded   | UndertaleSound.AudioEntryFlags.IsCompressed | UndertaleSound.AudioEntryFlags.Regular;
+        if (isOGG && embedSound && !decodeLoad) // OGG, embed, not decode on load.
+            flags = UndertaleSound.AudioEntryFlags.IsCompressed | UndertaleSound.AudioEntryFlags.Regular;
+        if (!isOGG)                                // WAV, always embed.
+            flags = UndertaleSound.AudioEntryFlags.IsEmbedded   | UndertaleSound.AudioEntryFlags.Regular;
+        if (isOGG && !embedSound)                // OGG, external.
+        {
+            flags = UndertaleSound.AudioEntryFlags.Regular;
+            audioID = -1;
+        }
+        
         UndertaleEmbeddedAudio RaudioFile = null;
-        if (!needAGRP) 
+        if (!embedSound)             
+            RaudioFile = null;
+        if (embedSound && !needAGRP) 
             RaudioFile = Data.EmbeddedAudio[embAudioID];
+        if (embedSound && needAGRP)  
+            RaudioFile = null;
         string soundfname = sound_name;
-
+        
         UndertaleAudioGroup groupID = null;
         if (!usesAGRP)
             groupID = null;
         else
             groupID = needAGRP ? Data.AudioGroups[audioGroupID] : Data.AudioGroups[Data.GetBuiltinSoundGroupID()];
-
+        
         //ScriptMessage("12");
-
+        
         if (!soundExists)
         {
             var snd_to_add = new UndertaleSound()
             {
                 Name        = Data.Strings.MakeString(soundfname),
                 Flags       = flags,
-                Type        = (Data.Strings.MakeString(".wav")),
+                Type        = (isOGG      ? Data.Strings.MakeString(".ogg") : Data.Strings.MakeString(".wav")               ),
                 File        = Data.Strings.MakeString(fname),
                 Effects     = 0,
                 Volume      = 1.0F,
@@ -169,11 +239,13 @@ foreach(DirectoryInfo dir in new DirectoryInfo(path).GetDirectories())
             };
             
             Data.Sounds.Add(snd_to_add);
+            ChangeSelection(snd_to_add);
         }
         else
         {
             existing_snd.AudioFile = RaudioFile;
             existing_snd.AudioID   = audioID;
+            ChangeSelection(existing_snd);
         }
     }
 }

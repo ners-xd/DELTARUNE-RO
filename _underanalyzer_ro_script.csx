@@ -1,4 +1,4 @@
-#load "main.csx"
+#load "_underanalyzer_main.csx"
 
 switch(Data?.GeneralInfo?.DisplayName?.Content)
 {
