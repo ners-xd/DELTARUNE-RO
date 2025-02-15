@@ -26,8 +26,6 @@ stringset = "0"
     chapname[2] = (global.lang == "en" ? "O lume cibernetică" : "サイバーワールド")
 /// END
 
-// Schimbăm titlul ferestrei și setăm volumul la 60% să nu fie prea tare
 /// APPEND
 window_set_caption((global.lang == "en" ? "DELTARUNE Capitolul 1&2" : "DELTARUNE Chapter 1&2"))
-audio_set_master_gain(0, 0.6)
 /// END

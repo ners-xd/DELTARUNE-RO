@@ -7,12 +7,6 @@
 /// END
 
 /// REPLACE
-        draw_text_transformed(195, 230, ("DELTARUNE " + version_text + " (C) Toby Fox 2018-2022 "), 0.5, 0.5, 0)
-/// CODE
-        draw_text_transformed(195, 230, ("DELTARUNE " + version_text + " (C) Toby Fox 2018-" + string(current_year)), 0.5, 0.5, 0)
-/// END
-
-/// REPLACE
     draw_text_shadow(40, 30, TEMPCOMMENT)
 /// CODE
     draw_text_shadow(40, (string_count("#", TEMPCOMMENT) ? 18 : 30), TEMPCOMMENT)

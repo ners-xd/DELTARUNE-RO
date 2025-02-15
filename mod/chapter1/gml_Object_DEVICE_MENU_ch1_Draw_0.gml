@@ -27,12 +27,6 @@
 /// END
 
 /// REPLACE
-        draw_text_transformed(195, 230, ("DELTARUNE " + version_text + "(C) Toby Fox 2018-2022 "), 0.5, 0.5, 0)
-/// CODE
-        draw_text_transformed(195, 230, ("DELTARUNE " + version_text + "(C) Toby Fox 2018-" + string(current_year)), 0.5, 0.5, 0)
-/// END
-
-/// REPLACE
 draw_text_shadow_ch1(((__view_get((0 << 0), 0)) + 8), ((__view_get((1 << 0), 0)) + 4), "CHAPTER 1")
 /// CODE
 draw_text_shadow_ch1(((__view_get((0 << 0), 0)) + 8), ((__view_get((1 << 0), 0)) + 4), (global.lang == "en" ? "CAPITOLUL 1" : "CHAPTER 1"))

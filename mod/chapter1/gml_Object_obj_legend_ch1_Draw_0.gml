@@ -10,19 +10,3 @@
         {
             xoff = 1
 /// END
-
-/// REPLACE
-            else
-                room_goto(PLACE_LOGO_ch1)
-/// CODE
-            else
-                room_goto(PLACE_LOGO)
-/// END
-
-/// REPLACE
-    if (skiptimer == 20)
-        room_goto(PLACE_LOGO_ch1)
-/// CODE
-    if (skiptimer == 20)
-        room_goto(PLACE_LOGO)
-/// END

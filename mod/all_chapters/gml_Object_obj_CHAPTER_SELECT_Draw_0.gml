@@ -1,25 +1,6 @@
 /// PATCH
 
 /// REPLACE
-if global.is_console
-{
-    if chapter_is_loading
-    {
-        draw_set_font(fnt_mainbig)
-        draw_set_halign(fa_center)
-        draw_text(320, 250, "LOADING...")
-    }
-}
-/// CODE
-if chapter_is_loading
-{
-    draw_set_font(fnt_mainbig)
-    draw_set_halign(fa_center)
-    draw_text(320, 250, (global.lang == "en" ? "SE ÎNCARCĂ..." : "LOADING..."))
-}
-/// END
-
-/// REPLACE
     my_stringset = (global.lang == "en" ? "Would you like to start from Chapter 1?" : "Chapter 1から始めますか？")
 /// CODE
     my_stringset = (global.lang == "en" ? "Vrei să începi de la Capitolul 1?" : "Chapter 1から始めますか？")
