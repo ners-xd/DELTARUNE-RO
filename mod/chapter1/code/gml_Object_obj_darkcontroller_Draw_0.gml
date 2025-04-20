@@ -15,6 +15,13 @@
         draw_text(xx + 520, (yy + tp) - 60, string_hash_to_newline(string(global.gold) + scr_84_get_lang_string("obj_darkcontroller_slash_Draw_0_gml_47_0")));
 /// END
 
+// Asta rezolvă un crash când intri în meniul de Controale
+/// REPLACE
+        var is_dualshock = (obj_gamecontroller.gamepad_active && gamepad_get_description(obj_gamecontroller.gamepad_id) == "Sony DualShock 4") || os_type == os_ps4 || os_type == os_ps5;
+/// CODE
+        var is_dualshock = obj_gamecontroller.gamepad_active && gamepad_get_description(obj_gamecontroller.gamepad_id) == "Sony DualShock 4";
+/// END
+
 /// REPLACE
     draw_sprite_ext(scr_84_get_sprite("spr_dmenu_captions"), 0, xx + 124, yy + 84, 2, 2, 0, c_white, 1);
 /// CODE
