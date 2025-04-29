@@ -1,4 +1,5 @@
 /// IMPORT .ignore if (CHAPTER_SELECT || CHAPTER_1)
+
 if (os_type == os_macosx)
     draw_screen = skiptimer < 29;
 
