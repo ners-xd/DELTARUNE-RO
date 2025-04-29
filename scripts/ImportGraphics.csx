@@ -655,8 +655,7 @@ string CheckValidity()
             if (!hadMessage)
             {
                 hadMessage = true;
-                importAsSprite = ScriptQuestion(FileNameWithExtension + @" is in an incorrectly-named folder (valid names being ""Sprites"" and ""Backgrounds""). Would you like to import these images as sprites?
-Pressing ""No"" will cause the program to ignore these images.");
+                importAsSprite = true;
             }
 
             if (!importAsSprite)
