@@ -10,10 +10,47 @@ using System.Threading;
 using System.Threading.Tasks;
 using UndertaleModLib.Util;
 
+EnsureDataLoaded();
+
 string gameDir = Path.GetDirectoryName(FilePath);
 string scriptDir = Path.GetDirectoryName(ScriptPath);
 string modDir = Path.Combine(scriptDir, "mod");
 string umtScriptsDir = Path.Combine(scriptDir, "scripts");
+string tempCheck = "";
+switch(Data?.GeneralInfo?.DisplayName?.Content)
+{
+    case "DELTARUNE Chapter Select":
+        tempCheck = Path.Combine(modDir, "chapter_select");
+        break;
+
+    case "DELTARUNE Chapter 1":
+        tempCheck = Path.Combine(modDir, "chapter1");
+        break;
+
+    case "DELTARUNE Chapter 2":
+        tempCheck = Path.Combine(modDir, "chapter2");
+        break;
+
+    case "DELTARUNE Chapter 3":
+        tempCheck = Path.Combine(modDir, "chapter3");
+        break;
+
+    case "DELTARUNE Chapter 4":
+        tempCheck = Path.Combine(modDir, "chapter4");
+        break;
+
+    case "DELTARUNE Chapter 5":
+        tempCheck = Path.Combine(modDir, "chapter5");
+        break;
+
+    case "DELTARUNE Chapter 6":
+        tempCheck = Path.Combine(modDir, "chapter6");
+        break;
+
+    case "DELTARUNE Chapter 7":
+        tempCheck = Path.Combine(modDir, "chapter7");
+        break;
+}
 
 class ROLoader : UMPLoader
 {
@@ -61,42 +98,6 @@ void BuildMod(int chapter)
             File.Copy(Path.Combine(modDir, $"chapter{chapter}/lang_ro.json"), Path.Combine(gameDir, "lang/lang_ro.json"), true);
 
     RunUMTScript(Path.Combine(umtScriptsDir, "ImportFontData.csx"));
-    
-    string tempCheck = "";
-    switch(chapter)
-    {
-        case 0:
-            tempCheck = Path.Combine(modDir, "chapter_select");
-            break;
-
-        case 1:
-            tempCheck = Path.Combine(modDir, "chapter1");
-            break;
-
-        case 2:
-            tempCheck = Path.Combine(modDir, "chapter2");
-            break;
-
-        case 3:
-            tempCheck = Path.Combine(modDir, "chapter3");
-            break;
-
-        case 4:
-            tempCheck = Path.Combine(modDir, "chapter4");
-            break;
-
-        case 5:
-            tempCheck = Path.Combine(modDir, "chapter5");
-            break;
-
-        case 6:
-            tempCheck = Path.Combine(modDir, "chapter6");
-            break;
-
-        case 7:
-            tempCheck = Path.Combine(modDir, "chapter7");
-            break;
-    }
 
     if(Directory.Exists(Path.Combine(tempCheck, "sounds")))
         RunUMTScript(Path.Combine(umtScriptsDir, "ImportASound.csx"));
@@ -127,38 +128,39 @@ void ImportTileset(UndertaleBackground tileset)
         string filename = $"{tileset.Name.Content}.png";
         try
         {
+            string path = "";
             switch(Data?.GeneralInfo?.DisplayName?.Content)
             {
                 case "DELTARUNE Chapter Select":
-                    subPath = Path.Combine(modDir, "chapter_select/tilesets", filename);
+                    path = Path.Combine(tempCheck, "tilesets", filename);
                     break;
 
                 case "DELTARUNE Chapter 1":
-                    subPath = Path.Combine(modDir, "chapter1/tilesets", filename);
+                    path = Path.Combine(tempCheck, "tilesets", filename);
                     break;
 
                 case "DELTARUNE Chapter 2":
-                    subPath = Path.Combine(modDir, "chapter2/tilesets", filename);
+                    path = Path.Combine(tempCheck, "tilesets", filename);
                     break;
 
                 case "DELTARUNE Chapter 3":
-                    subPath = Path.Combine(modDir, "chapter3/tilesets", filename);
+                    path = Path.Combine(tempCheck, "tilesets", filename);
                     break;
 
                 case "DELTARUNE Chapter 4":
-                    subPath = Path.Combine(modDir, "chapter4/tilesets", filename);
+                    path = Path.Combine(tempCheck, "tilesets", filename);
                     break;
 
                 case "DELTARUNE Chapter 5":
-                    subPath = Path.Combine(modDir, "chapter5/tilesets", filename);
+                    path = Path.Combine(tempCheck, "tilesets", filename);
                     break;
 
                 case "DELTARUNE Chapter 6":
-                    subPath = Path.Combine(modDir, "chapter6/tilesets", filename);
+                    path = Path.Combine(tempCheck, "tilesets", filename);
                     break;
 
                 case "DELTARUNE Chapter 7":
-                    subPath = Path.Combine(modDir, "chapter7/tilesets", filename);
+                    path = Path.Combine(tempCheck, "tilesets", filename);
                     break;
             }
 
