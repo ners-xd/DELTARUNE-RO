@@ -128,42 +128,7 @@ void ImportTileset(UndertaleBackground tileset)
         string filename = $"{tileset.Name.Content}.png";
         try
         {
-            string path = "";
-            switch(Data?.GeneralInfo?.DisplayName?.Content)
-            {
-                case "DELTARUNE Chapter Select":
-                    path = Path.Combine(tempCheck, "tilesets", filename);
-                    break;
-
-                case "DELTARUNE Chapter 1":
-                    path = Path.Combine(tempCheck, "tilesets", filename);
-                    break;
-
-                case "DELTARUNE Chapter 2":
-                    path = Path.Combine(tempCheck, "tilesets", filename);
-                    break;
-
-                case "DELTARUNE Chapter 3":
-                    path = Path.Combine(tempCheck, "tilesets", filename);
-                    break;
-
-                case "DELTARUNE Chapter 4":
-                    path = Path.Combine(tempCheck, "tilesets", filename);
-                    break;
-
-                case "DELTARUNE Chapter 5":
-                    path = Path.Combine(tempCheck, "tilesets", filename);
-                    break;
-
-                case "DELTARUNE Chapter 6":
-                    path = Path.Combine(tempCheck, "tilesets", filename);
-                    break;
-
-                case "DELTARUNE Chapter 7":
-                    path = Path.Combine(tempCheck, "tilesets", filename);
-                    break;
-            }
-
+            string path = Path.Combine(tempCheck, "tilesets", filename);
             if (File.Exists(path))
             {
                 using MagickImage img = TextureWorker.ReadBGRAImageFromFile(path);
