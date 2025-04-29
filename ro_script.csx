@@ -35,6 +35,6 @@ switch(Data?.GeneralInfo?.DisplayName?.Content)
 		return;
 
 	default:
-		ScriptError("Versiune invalidă (folosește DELTARUNE Chapter Select sau DELTARUNE Chapter [număr].");
+		ScriptError("Joc invalid (folosește DELTARUNE Chapter Select sau DELTARUNE Chapter 1-7).");
 		return;
 }

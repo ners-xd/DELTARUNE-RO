@@ -1,5 +1,5 @@
 // Adapted from original script by Grossley
-// Modified by NERS for UMP usage (Underanalyzer)
+// Modified by NERS for UMP usage
 
 using System.Text;
 using System;
@@ -47,7 +47,7 @@ switch(Data?.GeneralInfo?.DisplayName?.Content)
         break;
 }
 
-ImportTilesets();
+await ImportTilesets();
 
 async Task ImportTilesets()
 {
@@ -56,18 +56,21 @@ async Task ImportTilesets()
 
 void ImportTileset(UndertaleBackground tileset)
 {
-    string filename = $"{tileset.Name.Content}.png";
-    try
+    if (tileset is not null)
     {
-        string path = Path.Combine(subPath, filename);
-        if (File.Exists(path))
+        string filename = $"{tileset.Name.Content}.png";
+        try
         {
-            using MagickImage img = TextureWorker.ReadBGRAImageFromFile(path);
-            tileset.Texture.ReplaceTexture(img);
+            string path = Path.Combine(subPath, filename);
+            if (File.Exists(path))
+            {
+                using MagickImage img = TextureWorker.ReadBGRAImageFromFile(path);
+                tileset.Texture.ReplaceTexture(img);
+            }
         }
-    }
-    catch (Exception ex)
-    {
-        ScriptMessage($"Failed to import {filename} (index {Data.Backgrounds.IndexOf(tileset)}): {ex.Message}");
+        catch (Exception ex)
+        {
+            ScriptMessage($"Failed to import {filename} (index {Data.Backgrounds.IndexOf(tileset)}): {ex.Message}");
+        }
     }
 }

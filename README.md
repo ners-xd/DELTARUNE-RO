@@ -11,9 +11,8 @@ Dacă întâmpini probleme, nu uita să le raportezi ori pe [server-ul de Discor
 # Contribuire
 Cum să contribui la mod:
 - Creează un fork al repo-ul și descarcă fișierele;
-- Descarcă scriptul [UMP](https://github.com/nhaar/ump/releases) și pune-l în folderul principal al modului (în același folder cu ro_script.csx și main.csx);
-- Folosește [această](https://github.com/XDOneDude/UndertaleModToolCE/actions/runs/13236104941/artifacts/2562909496) și [această](https://nightly.link/UnderminersTeam/UndertaleModTool/actions/artifacts/2560199405.zip) versiune de UndertaleModTool (trebuie să fii logat pentru a le descărca - prima este singura suportată de Chapter Select, cealaltă trebuie folosită pentru capitolele individuale, momentan);
-- Deschide data.win-ul unui capitol sau al Chapter Select-ului, apasă sus pe Scripts -> Run other script... -> ro_script.csx (pentru Chapter Select) sau _underanalyzer_ro_script.csx (pentru capitole) pentru a importa modul și poți salva fișierul (versiunea suportată este v3 / 1.19);
+- Folosește [ultima](https://github.com/UnderminersTeam/UndertaleModTool/releases/latest) versiune de UndertaleModTool;
+- Deschide data.win-ul jocului, apasă sus pe Scripts -> Run other script... -> ro_script.csx pentru a importa modul și poți salva fișierul (versiunea suportată este LTS v3 / 1.19);
 - Poți vedea un ghid despre cum să folosești UMP [aici](https://github.com/nhaar/ump/blob/main/guide/guide.md);
 - Dacă ai făcut niște modificări și vrei să fie adăugate în mod, deschide un Pull Request și ne vom uita peste el.
 

@@ -4,7 +4,7 @@
 // By Jockeholm & Nik the Neko - Version 4 06/03/2020 - Specify audiogroup name with a folder name.
 // By Jockeholm & Nik the Neko - Version 3 03/01/2020 - Massive im_purr_ovements.
 // By Jockeholm                - Version 2 15/02/2020 - Currently supports embedded WAV files only
-// Modified by NERS for UMP usage (Underanalyzer)
+// Modified by NERS for UMP usage
 
 using System.Windows.Forms;
 using UndertaleModLib;
@@ -64,38 +64,20 @@ foreach(DirectoryInfo dir in new DirectoryInfo(path).GetDirectories())
 {
     foreach(FileInfo file in dir.GetFiles())
     {
-        string fname      = file.Name;
-        string sound_name = fname.Substring(0, fname.LastIndexOf('.')); // creates a string of the wav file's filename without it's extension
-        bool   isOGG      = Path.GetExtension(fname) == ".ogg";
-        bool   embedSound = false;
-        bool   decodeLoad = false;
-        if (isOGG)
-        {
-            embedSound = ScriptQuestion("Your sound appears to be an OGG.\nNo - keep it external\nYes - embed sound into the game (use responsibly!)");
-            decodeLoad = false;
-            if (embedSound)
-            {
-                decodeLoad = ScriptQuestion("Do you want to Uncompress this sound on load? (Higher Memory, low CPU)");
-            }
-        }
-        else
-        {
-            // How can a .wav be external?
-            embedSound = true;
-            decodeLoad = false;
-        }
         string AGRPname    = "";
-        string FolderName  = dir.Name;
-        bool   needAGRP    = false;
+        bool   needAGRP    = true;
         bool   ifRightAGRP = false;
+        string FolderName  = dir.Name;
+        string fname       = file.Name;
+        string sound_name  = fname.Substring(0, fname.LastIndexOf('.'));
         string[] splitArr  = new string[2];
         splitArr[0] = sound_name;
         splitArr[1] = FolderName;
-        
+
         bool soundExists = false;
-        
+
         UndertaleSound existing_snd = null;
-        
+
         for (var i = 0; i < Data.Sounds.Count; i++)
         {
             if (Data.Sounds[i].Name.Content == sound_name)
@@ -106,15 +88,14 @@ foreach(DirectoryInfo dir in new DirectoryInfo(path).GetDirectories())
             }
         }
 
-        if (needAGRP && usesAGRP && embedSound)
+        if (usesAGRP)
         {
             AGRPname     = splitArr[1];
-            ifRightAGRP  = (needAGRP && embedSound);
+            ifRightAGRP  = (needAGRP);
             if (ifRightAGRP)
             {
                 while (audioGroupID == -1)
                 {
-                    // find the agrp we need.
                     for (int i = 0; i < Data.AudioGroups.Count; i++)
                     {
                         string name = Data.AudioGroups[i].Name.Content;
@@ -124,7 +105,7 @@ foreach(DirectoryInfo dir in new DirectoryInfo(path).GetDirectories())
                             break;
                         }
                     }
-                    if (audioGroupID == -1) // still -1? o_O
+                    if (audioGroupID == -1)
                     {
                         File.WriteAllBytes(GetFolder(FilePath) + "audiogroup" + Data.AudioGroups.Count + ".dat", Convert.FromBase64String("Rk9STQwAAABBVURPBAAAAAAAAAA="));
                         var newAudioGroup = new UndertaleAudioGroup()
@@ -153,32 +134,26 @@ foreach(DirectoryInfo dir in new DirectoryInfo(path).GetDirectories())
                 }
             }
         }
-        if (audioGroupID == 0) //If the audiogroup is zero then 
+        if (audioGroupID == 0)
             needAGRP = false;
             
         UndertaleEmbeddedAudio soundData = null;
 
-        if ((embedSound && !needAGRP) || (needAGRP))
-        {
-            soundData = new UndertaleEmbeddedAudio() { Data = File.ReadAllBytes(Path.Combine(path, FolderName, fname)) };
-            Data.EmbeddedAudio.Add(soundData);
-            if (soundExists)
-                Data.EmbeddedAudio.Remove(existing_snd.AudioFile);
-            embAudioID = Data.EmbeddedAudio.Count - 1;
-            //ScriptMessage("len " + Data.EmbeddedAudio[embAudioID].Data.Length.ToString());
-        }
-        
-        //ScriptMessage("11");
-        
+        soundData = new UndertaleEmbeddedAudio() { Data = File.ReadAllBytes(Path.Combine(path, FolderName, fname)) };
+        Data.EmbeddedAudio.Add(soundData);
+        if (soundExists)
+            Data.EmbeddedAudio.Remove(existing_snd.AudioFile);
+        embAudioID = Data.EmbeddedAudio.Count - 1;
+
         if (needAGRP)
         {
             var audioGroupReadStream =
             (
                 new FileStream(GetFolder(FilePath) + "audiogroup" + audioGroupID.ToString() + ".dat", FileMode.Open, FileAccess.Read)
-            ); // Load the audiogroup dat into memory
-            UndertaleData audioGroupDat = UndertaleIO.Read(audioGroupReadStream); // Load as UndertaleData
+            );
+            UndertaleData audioGroupDat = UndertaleIO.Read(audioGroupReadStream);
             audioGroupReadStream.Dispose();
-            audioGroupDat.EmbeddedAudio.Add(soundData); // Adds the embeddedaudio entry to the dat data in memory
+            audioGroupDat.EmbeddedAudio.Add(soundData);
             if (soundExists)
                 audioGroupDat.EmbeddedAudio.Remove(existing_snd.AudioFile);
             audioID = audioGroupDat.EmbeddedAudio.Count - 1;
@@ -186,48 +161,32 @@ foreach(DirectoryInfo dir in new DirectoryInfo(path).GetDirectories())
             (
                 new FileStream(GetFolder(FilePath) + "audiogroup" + audioGroupID.ToString() + ".dat", FileMode.Create)
             );
-            UndertaleIO.Write(audioGroupWriteStream, audioGroupDat); // Write it to the disk
+            UndertaleIO.Write(audioGroupWriteStream, audioGroupDat);
             audioGroupWriteStream.Dispose();
         }
 
         UndertaleSound.AudioEntryFlags flags = UndertaleSound.AudioEntryFlags.Regular;
-        
-        if (isOGG && embedSound && decodeLoad)  // OGG, embed, decode on load.
-            flags = UndertaleSound.AudioEntryFlags.IsEmbedded   | UndertaleSound.AudioEntryFlags.IsCompressed | UndertaleSound.AudioEntryFlags.Regular;
-        if (isOGG && embedSound && !decodeLoad) // OGG, embed, not decode on load.
-            flags = UndertaleSound.AudioEntryFlags.IsCompressed | UndertaleSound.AudioEntryFlags.Regular;
-        if (!isOGG)                                // WAV, always embed.
-            flags = UndertaleSound.AudioEntryFlags.IsEmbedded   | UndertaleSound.AudioEntryFlags.Regular;
-        if (isOGG && !embedSound)                // OGG, external.
-        {
-            flags = UndertaleSound.AudioEntryFlags.Regular;
-            audioID = -1;
-        }
-        
+
+        flags = UndertaleSound.AudioEntryFlags.IsEmbedded   | UndertaleSound.AudioEntryFlags.Regular;
+
         UndertaleEmbeddedAudio RaudioFile = null;
-        if (!embedSound)             
-            RaudioFile = null;
-        if (embedSound && !needAGRP) 
+        if (!needAGRP) 
             RaudioFile = Data.EmbeddedAudio[embAudioID];
-        if (embedSound && needAGRP)  
-            RaudioFile = null;
         string soundfname = sound_name;
-        
+
         UndertaleAudioGroup groupID = null;
         if (!usesAGRP)
             groupID = null;
         else
             groupID = needAGRP ? Data.AudioGroups[audioGroupID] : Data.AudioGroups[Data.GetBuiltinSoundGroupID()];
-        
-        //ScriptMessage("12");
-        
+
         if (!soundExists)
         {
             var snd_to_add = new UndertaleSound()
             {
                 Name        = Data.Strings.MakeString(soundfname),
                 Flags       = flags,
-                Type        = (isOGG      ? Data.Strings.MakeString(".ogg") : Data.Strings.MakeString(".wav")               ),
+                Type        = (Data.Strings.MakeString(".wav")),
                 File        = Data.Strings.MakeString(fname),
                 Effects     = 0,
                 Volume      = 1.0F,
@@ -239,13 +198,11 @@ foreach(DirectoryInfo dir in new DirectoryInfo(path).GetDirectories())
             };
             
             Data.Sounds.Add(snd_to_add);
-            ChangeSelection(snd_to_add);
         }
         else
         {
             existing_snd.AudioFile = RaudioFile;
             existing_snd.AudioID   = audioID;
-            ChangeSelection(existing_snd);
         }
     }
 }

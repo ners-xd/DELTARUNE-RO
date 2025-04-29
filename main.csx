@@ -49,12 +49,10 @@ void BuildMod(int chapter)
 {
     ROLoader loader = new ROLoader(UMP_WRAPPER, chapter);
 
-    // Importarea fișierului json în joc
     if(chapter > 0)
         if(ScriptQuestion("Dorești să fie înlocuit fișierul lang_ro.json cu cel din mod (sau să fie adăugat dacă nu este deja)?"))
             File.Copy(Path.Combine(modDir, $"chapter{chapter}/lang_ro.json"), Path.Combine(gameDir, "lang/lang_ro.json"), true);
 
-    // Celelalte scripturi pentru importarea fișierelor
     RunUMTScript(Path.Combine(umtScriptsDir, "ImportFontData.csx"));
     
     string tempCheck = "";
