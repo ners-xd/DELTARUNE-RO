@@ -10,14 +10,13 @@ using System.Threading;
 using System.Threading.Tasks;
 using UndertaleModLib.Util;
 
+EnsureDataLoaded();
+
 string gameDir = Path.GetDirectoryName(FilePath);
 string scriptDir = Path.GetDirectoryName(ScriptPath);
 string modDir = Path.Combine(scriptDir, "mod");
-
 string umtScriptsDir = Path.Combine(scriptDir, "scripts");
 string gameFile = "";
-
-EnsureDataLoaded();
 
 class ROLoader : UMPLoader
 {
@@ -73,7 +72,7 @@ void ImportTileset(UndertaleBackground tileset)
         string filename = $"{tileset.Name.Content}.png";
         try
         {
-            string path = Path.Combine(Path.GetDirectoryName(ScriptPath), "mod/tilesets", filename);
+            string path = Path.Combine(modDir, "tilesets", filename);
             if (File.Exists(path))
             {
                 using MagickImage img = TextureWorker.ReadBGRAImageFromFile(path);
