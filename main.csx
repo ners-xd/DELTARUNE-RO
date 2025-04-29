@@ -1,7 +1,14 @@
 #load "ump.csx"
 
-using System.Linq;
+using ImageMagick;
+using System;
 using System.Drawing;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+using UndertaleModLib.Util;
 
 string gameDir = Path.GetDirectoryName(FilePath);
 string scriptDir = Path.GetDirectoryName(ScriptPath);
@@ -96,11 +103,74 @@ void BuildMod(int chapter)
 
     if(Directory.Exists(Path.Combine(tempCheck, "sprites")))
         RunUMTScript(Path.Combine(umtScriptsDir, "ImportGraphics.csx"));
-        
-    if(Directory.Exists(Path.Combine(tempCheck, "tilesets")))
-        RunUMTScript(Path.Combine(umtScriptsDir, "ImportAllTilesets.csx"));
 
     loader.Load();
 
     ScriptMessage(chapter == 0 ? "DELTARUNE (Selectare Capitol) în Română a fost importat cu succes!" : $"DELTARUNE Capitolul {chapter} în Română a fost importat cu succes!");
+}
+
+// Adapted from original tilesets script by Grossley
+// Modified by NERS for UMP usage (doesn't work if used with RunUMTScript for some reason)
+
+if(Directory.Exists(Path.Combine(tempCheck, "tilesets")))
+    await ImportTilesets();
+
+async Task ImportTilesets()
+{
+    await Task.Run(() => Parallel.ForEach(Data.Backgrounds, ImportTileset));
+}
+
+void ImportTileset(UndertaleBackground tileset)
+{
+    if (tileset is not null)
+    {
+        string filename = $"{tileset.Name.Content}.png";
+        try
+        {
+            switch(Data?.GeneralInfo?.DisplayName?.Content)
+            {
+                case "DELTARUNE Chapter Select":
+                    subPath = Path.Combine(modDir, "chapter_select/tilesets", filename);
+                    break;
+
+                case "DELTARUNE Chapter 1":
+                    subPath = Path.Combine(modDir, "chapter1/tilesets", filename);
+                    break;
+
+                case "DELTARUNE Chapter 2":
+                    subPath = Path.Combine(modDir, "chapter2/tilesets", filename);
+                    break;
+
+                case "DELTARUNE Chapter 3":
+                    subPath = Path.Combine(modDir, "chapter3/tilesets", filename);
+                    break;
+
+                case "DELTARUNE Chapter 4":
+                    subPath = Path.Combine(modDir, "chapter4/tilesets", filename);
+                    break;
+
+                case "DELTARUNE Chapter 5":
+                    subPath = Path.Combine(modDir, "chapter5/tilesets", filename);
+                    break;
+
+                case "DELTARUNE Chapter 6":
+                    subPath = Path.Combine(modDir, "chapter6/tilesets", filename);
+                    break;
+
+                case "DELTARUNE Chapter 7":
+                    subPath = Path.Combine(modDir, "chapter7/tilesets", filename);
+                    break;
+            }
+
+            if (File.Exists(path))
+            {
+                using MagickImage img = TextureWorker.ReadBGRAImageFromFile(path);
+                tileset.Texture.ReplaceTexture(img);
+            }
+        }
+        catch (Exception ex)
+        {
+            ScriptMessage($"Failed to import {filename} (index {Data.Backgrounds.IndexOf(tileset)}): {ex.Message}");
+        }
+    }
 }
