@@ -1,45 +1,63 @@
 /// PATCH
 
-/// REPLACE
+/// REPLACE 
             if (obj_controller_city_mice3.micescore == 1)
-                snd_play(snd_speak_and_spell_I)
+                snd_play(snd_speak_and_spell_I);
+            
             if (obj_controller_city_mice3.micescore == 2)
-                snd_play(snd_speak_and_spell_L)
+                snd_play(snd_speak_and_spell_L);
+            
             if (obj_controller_city_mice3.micescore == 3)
-                snd_play(snd_speak_and_spell_O)
+                snd_play(snd_speak_and_spell_O);
+            
             if (obj_controller_city_mice3.micescore == 4)
-                snd_play(snd_speak_and_spell_V)
+                snd_play(snd_speak_and_spell_V);
+            
             if (obj_controller_city_mice3.micescore == 5)
-                snd_play(snd_speak_and_spell_E)
+                snd_play(snd_speak_and_spell_E);
+            
             if (obj_controller_city_mice3.micescore == 6)
-                snd_play(snd_speak_and_spell_M)
+                snd_play(snd_speak_and_spell_M);
+            
             if (obj_controller_city_mice3.micescore == 7)
-                snd_play(snd_speak_and_spell_O)
+                snd_play(snd_speak_and_spell_O);
+            
             if (obj_controller_city_mice3.micescore == 8)
-                snd_play(snd_speak_and_spell_U)
+                snd_play(snd_speak_and_spell_U);
+            
             if (obj_controller_city_mice3.micescore == 9)
-                snd_play(snd_speak_and_spell_S)
+                snd_play(snd_speak_and_spell_S);
+            
             if (obj_controller_city_mice3.micescore == 10)
-                snd_play(snd_speak_and_spell_E)
+                snd_play(snd_speak_and_spell_E);
 /// CODE
             if (obj_controller_city_mice3.micescore == 1)
-                snd_play(snd_speak_and_spell_I)
+                snd_play(snd_speak_and_spell_I);
+            
             if (obj_controller_city_mice3.micescore == 2)
-                snd_play(snd_speak_and_spell_U)
+                snd_play(snd_speak_and_spell_U);
+            
             if (obj_controller_city_mice3.micescore == 3)
-                snd_play(snd_speak_and_spell_B)
+                snd_play(snd_speak_and_spell_B);
+            
             if (obj_controller_city_mice3.micescore == 4)
-                snd_play(snd_speak_and_spell_E)
+                snd_play(snd_speak_and_spell_E);
+            
             if (obj_controller_city_mice3.micescore == 5)
-                snd_play(snd_speak_and_spell_S)
+                snd_play(snd_speak_and_spell_S);
+            
             if (obj_controller_city_mice3.micescore == 6)
-                snd_play(snd_speak_and_spell_C)
+                snd_play(snd_speak_and_spell_C);
+            
             if (obj_controller_city_mice3.micescore == 7)
-                snd_play(snd_speak_and_spell_S)
+                snd_play(snd_speak_and_spell_S);
+            
             if (obj_controller_city_mice3.micescore == 8)
-                snd_play(snd_speak_and_spell_O)
+                snd_play(snd_speak_and_spell_O);
+            
             if (obj_controller_city_mice3.micescore == 9)
-                snd_play(snd_speak_and_spell_A)
+                snd_play(snd_speak_and_spell_A);
+            
             if (obj_controller_city_mice3.micescore == 10)
-                snd_play(snd_speak_and_spell_Exclamation)
+                snd_play(snd_speak_and_spell_Exclamation);
 /// END

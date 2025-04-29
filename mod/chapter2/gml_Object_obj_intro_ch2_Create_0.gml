@@ -1,5 +1,5 @@
 /// PATCH
 
 /// PREPEND
-scr_windowcaption("")
+scr_windowcaption("");
 /// END

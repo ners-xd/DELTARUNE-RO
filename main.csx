@@ -28,7 +28,6 @@ void BuildMod()
 {
     ROLoader loader = new ROLoader(UMP_WRAPPER);
 
-    // Importarea fișierelor json în joc
     if(ScriptQuestion("Dorești să fie înlocuite fișierele lang_ro_ch1.json și lang_ro.json cu cele din mod (sau să fie adăugate dacă nu sunt deja)?"))
     {
         foreach(FileInfo langFile in new DirectoryInfo(Path.Combine(modDir, "lang")).GetFiles())
@@ -39,7 +38,6 @@ void BuildMod()
         }
     }
 
-    // Celelalte scripturi pentru importarea fișierelor
     RunUMTScript(Path.Combine(umtScriptsDir, "ImportASound.csx"));
     RunUMTScript(Path.Combine(umtScriptsDir, "ImportFontData.csx"));
     RunUMTScript(Path.Combine(umtScriptsDir, "ImportGraphics.csx"));

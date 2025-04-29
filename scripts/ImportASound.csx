@@ -35,7 +35,7 @@ foreach(DirectoryInfo dir in new DirectoryInfo(path).GetDirectories())
         bool   ifRightAGRP = false;
         string FolderName  = dir.Name;
         string fname       = file.Name;
-        string sound_name  = fname.Substring(0, fname.LastIndexOf('.')); // creates a string of the wav file's filename without it's extension
+        string sound_name  = fname.Substring(0, fname.LastIndexOf('.'));
         string[] splitArr  = new string[2];
         splitArr[0] = sound_name;
         splitArr[1] = FolderName;
@@ -62,7 +62,6 @@ foreach(DirectoryInfo dir in new DirectoryInfo(path).GetDirectories())
             {
                 while (audioGroupID == -1)
                 {
-                    // find the agrp we need.
                     for (int i = 0; i < Data.AudioGroups.Count; i++)
                     {
                         string name = Data.AudioGroups[i].Name.Content;
@@ -72,7 +71,7 @@ foreach(DirectoryInfo dir in new DirectoryInfo(path).GetDirectories())
                             break;
                         }
                     }
-                    if (audioGroupID == -1) // still -1? o_O
+                    if (audioGroupID == -1)
                     {
                         File.WriteAllBytes(GetFolder(FilePath) + "audiogroup" + Data.AudioGroups.Count + ".dat", Convert.FromBase64String("Rk9STQwAAABBVURPBAAAAAAAAAA="));
                         var newAudioGroup = new UndertaleAudioGroup()
@@ -101,7 +100,7 @@ foreach(DirectoryInfo dir in new DirectoryInfo(path).GetDirectories())
                 }
             }
         }
-        if (audioGroupID == 0) //If the audiogroup is zero then 
+        if (audioGroupID == 0)
             needAGRP = false;
             
         UndertaleEmbeddedAudio soundData = null;
@@ -111,18 +110,16 @@ foreach(DirectoryInfo dir in new DirectoryInfo(path).GetDirectories())
         if (soundExists)
             Data.EmbeddedAudio.Remove(existing_snd.AudioFile);
         embAudioID = Data.EmbeddedAudio.Count - 1;
-        //ScriptMessage("len " + Data.EmbeddedAudio[embAudioID].Data.Length.ToString());
-        //ScriptMessage("11");
 
         if (needAGRP)
         {
             var audioGroupReadStream =
             (
                 new FileStream(GetFolder(FilePath) + "audiogroup" + audioGroupID.ToString() + ".dat", FileMode.Open, FileAccess.Read)
-            ); // Load the audiogroup dat into memory
-            UndertaleData audioGroupDat = UndertaleIO.Read(audioGroupReadStream); // Load as UndertaleData
+            );
+            UndertaleData audioGroupDat = UndertaleIO.Read(audioGroupReadStream);
             audioGroupReadStream.Dispose();
-            audioGroupDat.EmbeddedAudio.Add(soundData); // Adds the embeddedaudio entry to the dat data in memory
+            audioGroupDat.EmbeddedAudio.Add(soundData);
             if (soundExists)
                 audioGroupDat.EmbeddedAudio.Remove(existing_snd.AudioFile);
             audioID = audioGroupDat.EmbeddedAudio.Count - 1;
@@ -130,7 +127,7 @@ foreach(DirectoryInfo dir in new DirectoryInfo(path).GetDirectories())
             (
                 new FileStream(GetFolder(FilePath) + "audiogroup" + audioGroupID.ToString() + ".dat", FileMode.Create)
             );
-            UndertaleIO.Write(audioGroupWriteStream, audioGroupDat); // Write it to the disk
+            UndertaleIO.Write(audioGroupWriteStream, audioGroupDat);
             audioGroupWriteStream.Dispose();
         }
 
@@ -148,8 +145,6 @@ foreach(DirectoryInfo dir in new DirectoryInfo(path).GetDirectories())
             groupID = null;
         else
             groupID = needAGRP ? Data.AudioGroups[audioGroupID] : Data.AudioGroups[Data.GetBuiltinSoundGroupID()];
-
-        //ScriptMessage("12");
 
         if (!soundExists)
         {

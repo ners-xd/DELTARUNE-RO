@@ -1,5 +1,6 @@
 // Texture packer by Samuel Roy
 // Uses code from https://github.com/mfascia/TexturePacker
+// TODO: this heavily uses Windows stuff, should be made cross platform
 // Modified by NERS for UMP usage
 
 using System;
@@ -34,18 +35,18 @@ string prefix = outName.Replace(Path.GetExtension(outName), "");
 int atlasCount = 0;
 foreach (Atlas atlas in packer.Atlasses)
 {
-    string atlasName = String.Format(prefix + "{0:000}" + ".png", atlasCount);
+    string atlasName = $"{prefix}{atlasCount:000}.png";
     Bitmap atlasBitmap = new Bitmap(atlasName);
     UndertaleEmbeddedTexture texture = new UndertaleEmbeddedTexture();
-    texture.Name = new UndertaleString("Texture " + ++lastTextPage);
-    texture.TextureData.TextureBlob = File.ReadAllBytes(atlasName);
+    texture.Name = new UndertaleString($"Texture {++lastTextPage}");
+    texture.TextureData.Image = GMImage.FromPng(File.ReadAllBytes(atlasName));
     Data.EmbeddedTextures.Add(texture);
     foreach (Node n in atlas.Nodes)
     {
         if (n.Texture != null)
         {
             UndertaleTexturePageItem texturePageItem = new UndertaleTexturePageItem();
-            texturePageItem.Name = new UndertaleString("PageItem " + ++lastTextPageItem);
+            texturePageItem.Name = new UndertaleString($"PageItem {++lastTextPageItem}");
             texturePageItem.SourceX = (ushort)n.Bounds.X;
             texturePageItem.SourceY = (ushort)n.Bounds.Y;
             texturePageItem.SourceWidth = (ushort)n.Bounds.Width;
@@ -86,7 +87,7 @@ foreach (Atlas atlas in packer.Atlasses)
 
 public void fontUpdate(UndertaleFont newFont)
 {
-    using (StreamReader reader = new StreamReader(Path.Combine(sourcePath, "glyphs_" + newFont.Name.Content + ".csv")))
+    using (StreamReader reader = new StreamReader(Path.Combine(sourcePath, $"glyphs_{newFont.Name.Content}.csv")))
     {
         newFont.Glyphs.Clear();
         string line;
@@ -96,7 +97,6 @@ public void fontUpdate(UndertaleFont newFont)
         {
             string[] s = line.Split(';');
 
-            // Skip blank lines like ";;;;;;;"
             if (s.All(x => x.Length == 0))
                 continue;
 
@@ -207,11 +207,9 @@ public class Packer
         Padding = _Padding;
         AtlasSize = _AtlasSize;
         DebugMode = _DebugMode;
-        //1: scan for all the textures we need to pack
         ScanForTextures(_SourceDir, _Pattern);
         List<TextureInfo> textures = new List<TextureInfo>();
         textures = SourceTextures.ToList();
-        //2: generate as many atlasses as needed (with the latest one as small as possible)
         Atlasses = new List<Atlas>();
         while (textures.Count > 0)
         {
@@ -221,14 +219,12 @@ public class Packer
             List<TextureInfo> leftovers = LayoutAtlas(textures, atlas);
             if (leftovers.Count == 0)
             {
-                // we reached the last atlas. Check if this last atlas could have been twice smaller
                 while (leftovers.Count == 0)
                 {
                     atlas.Width /= 2;
                     atlas.Height /= 2;
                     leftovers = LayoutAtlas(textures, atlas);
                 }
-                // we need to go 1 step larger as we found the first size that is to small
                 atlas.Width *= 2;
                 atlas.Height *= 2;
                 leftovers = LayoutAtlas(textures, atlas);
@@ -247,16 +243,12 @@ public class Packer
         tw.WriteLine("source_tex, atlas_tex, x, y, width, height");
         foreach (Atlas atlas in Atlasses)
         {
-            string atlasName = String.Format(prefix + "{0:000}" + ".png", atlasCount);
-            //1: Save images
+            string atlasName = $"{prefix}{atlasCount:000}.png";
             Image img = CreateAtlasImage(atlas);
-            //DPI fix start
             Bitmap ResolutionFix = new Bitmap(img);
             ResolutionFix.SetResolution(96.0F, 96.0F);
             Image img2 = ResolutionFix;
-            //DPI fix end
             img2.Save(atlasName, System.Drawing.Imaging.ImageFormat.Png);
-            //2: save description in file
             foreach (Node n in atlas.Nodes)
             {
                 if (n.Texture != null)
@@ -358,7 +350,6 @@ public class Packer
         {
             switch (FitHeuristic)
             {
-                // Max of Width and Height ratios
                 case BestFitHeuristic.MaxOneAxis:
                     if (ti.Width <= _Node.Bounds.Width && ti.Height <= _Node.Bounds.Height)
                     {
@@ -372,7 +363,6 @@ public class Packer
                         }
                     }
                     break;
-                // Maximize Area coverage
                 case BestFitHeuristic.Area:
                     if (ti.Width <= _Node.Bounds.Width && ti.Height <= _Node.Bounds.Height)
                     {

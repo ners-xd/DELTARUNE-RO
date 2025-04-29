@@ -4,9 +4,9 @@
 /// REPLACE
         if (contimer >= 552)
         {
-            xoff = 0
+            xoff = 0;
 /// CODE
         if (contimer >= 552)
         {
-            xoff = 1
+            xoff = 1;
 /// END

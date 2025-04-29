@@ -1,7 +1,7 @@
 /// PATCH
 
 /// REPLACE
-myString = "E"
+myString = "E";
 /// CODE
-myString = chr(irandom_range(65, 90))
+myString = chr(irandom_range(65, 90));
 /// END

@@ -1,7 +1,7 @@
 /// PATCH
 
 /// AFTER
-    scr_84_init_localization()
+    scr_84_init_localization();
 /// CODE
-    scr_windowcaption("")
+    scr_windowcaption("");
 /// END

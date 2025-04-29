@@ -1,7 +1,7 @@
 /// PATCH
 
 /// REPLACE
-myString = "G"
+myString = "G";
 /// CODE
-myString = "C"
+myString = "C";
 /// END
