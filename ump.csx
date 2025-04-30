@@ -8,7 +8,12 @@ using System.Security.Cryptography;
 EnsureDataLoaded();
 
 GlobalDecompileContext UMP_DECOMPILE_CONTEXT = new(Data);
-Underanalyzer.Decompiler.IDecompileSettings decompileSettings = Data.ToolInfo.DecompilerSettings;
+Underanalyzer.Decompiler.IDecompileSettings decompileSettings = new Underanalyzer.Decompiler.DecompileSettings()
+{
+    RemoveSingleLineBlockBraces = true,
+    EmptyLineAroundBranchStatements = true,
+    EmptyLineBeforeSwitchCases = true
+};
 
 /// <summary>
 /// Wrapper for the IScriptInterface methods
