@@ -15,7 +15,7 @@
 /// REPLACE
 draw_text_shadow(camerax() + 8, cameray() + 4, "CHAPTER " + string(global.chapter));
 /// CODE
-if(global.lang == "en")
+if (global.lang == "en")
     draw_text_shadow(camerax() + 8, cameray() + 4, "CAPITOLUL " + string(global.chapter));
 else
     draw_text_shadow(camerax() + 8, cameray() + 4, "CHAPTER " + string(global.chapter)); 
