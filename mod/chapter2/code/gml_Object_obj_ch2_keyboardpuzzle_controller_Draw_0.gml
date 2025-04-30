@@ -8,6 +8,7 @@ if (room == room_dw_cyber_keyboard_puzzle_2)
 if (room == room_dw_cyber_keyboard_puzzle_2)
 {
     _xx += 40;
+
     if (global.lang == "en")
         _xx -= 5;
 }
