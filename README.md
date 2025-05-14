@@ -11,6 +11,7 @@ Dacă întâmpini probleme, nu uita să le raportezi ori pe [server-ul de Discor
 # Contribuire
 Cum să contribui la mod:
 - Creează un fork al repo-ul și descarcă fișierele;
+- Descarcă [ultima](https://github.com/nhaar/ump/releases/latest) versiune de UMP și pune script-ul în același folder cu modul;
 - Folosește [ultima](https://github.com/UnderminersTeam/UndertaleModTool/releases/latest) versiune de UndertaleModTool;
 - Deschide data.win-ul jocului, apasă sus pe Scripts -> Run other script... -> ro_script.csx pentru a importa modul și poți salva fișierul (versiunea suportată este LTS v3 / 1.19);
 - Poți vedea un ghid despre cum să folosești UMP [aici](https://github.com/nhaar/ump/blob/main/guide/guide.md);
