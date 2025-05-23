@@ -2,39 +2,39 @@
 
 switch(Data?.GeneralInfo?.DisplayName?.Content)
 {
-	case "DELTARUNE Chapter Select":
-		BuildMod(0);
-		return;
+    case "DELTARUNE Chapter Select":
+        BuildMod(0);
+        return;
 
-	case "DELTARUNE Chapter 1":
-		BuildMod(1);
-		return;
+    case "DELTARUNE Chapter 1":
+        BuildMod(1);
+        return;
 
-	case "DELTARUNE Chapter 2":
-		BuildMod(2);
-		return;
+    case "DELTARUNE Chapter 2":
+        BuildMod(2);
+        return;
 
-	case "DELTARUNE Chapter 3":
-		BuildMod(3);
-		return;
+    case "DELTARUNE Chapter 3":
+        BuildMod(3);
+        return;
 
-	case "DELTARUNE Chapter 4":
-		BuildMod(4);
-		return;
+    case "DELTARUNE Chapter 4":
+        BuildMod(4);
+        return;
 
-	case "DELTARUNE Chapter 5":
-		BuildMod(5);
-		return;
+    case "DELTARUNE Chapter 5":
+        BuildMod(5);
+        return;
 
-	case "DELTARUNE Chapter 6":
-		BuildMod(6);
-		return;
+    case "DELTARUNE Chapter 6":
+        BuildMod(6);
+        return;
 
-	case "DELTARUNE Chapter 7":
-		BuildMod(7);
-		return;
+    case "DELTARUNE Chapter 7":
+        BuildMod(7);
+        return;
 
-	default:
-		ScriptError("Joc invalid (folosește DELTARUNE Chapter Select sau DELTARUNE Chapter 1-7).");
-		return;
+    default:
+        ScriptError("Joc invalid (folosește DELTARUNE Chapter Select sau DELTARUNE Chapter 1-7).");
+        return;
 }
