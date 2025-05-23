@@ -1,6 +1,6 @@
 #load "main.csx"
 
-if (Data?.GeneralInfo?.DisplayName?.Content != "DELTARUNE Chapter 1&2")
+if(Data?.GeneralInfo?.DisplayName?.Content != "DELTARUNE Chapter 1&2")
 {
     ScriptError("Joc invalid (folosește DELTARUNE Chapter 1&2).");
     return;
