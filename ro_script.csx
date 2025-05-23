@@ -2,8 +2,8 @@
 
 if (Data?.GeneralInfo?.DisplayName?.Content != "DELTARUNE Chapter 1&2")
 {
-	ScriptError("Joc invalid (folosește DELTARUNE Chapter 1&2).");
-	return;
+    ScriptError("Joc invalid (folosește DELTARUNE Chapter 1&2).");
+    return;
 }
 
 BuildMod();
