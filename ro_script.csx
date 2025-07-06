@@ -1,9 +1,40 @@
 #load "main.csx"
 
-if(Data?.GeneralInfo?.DisplayName?.Content != "DELTARUNE Chapter 1&2")
+switch(Data?.GeneralInfo?.DisplayName?.Content)
 {
-    ScriptError("Joc invalid (folosește DELTARUNE Chapter 1&2).");
-    return;
-}
+    case "DELTARUNE":
+        BuildMod(0);
+        return;
 
-BuildMod();
+    case "DELTARUNE Chapter 1":
+        BuildMod(1);
+        return;
+
+    case "DELTARUNE Chapter 2":
+        BuildMod(2);
+        return;
+
+    case "DELTARUNE Chapter 3":
+        BuildMod(3);
+        return;
+
+    case "DELTARUNE Chapter 4":
+        BuildMod(4);
+        return;
+
+    case "DELTARUNE Chapter 5":
+        BuildMod(5);
+        return;
+
+    case "DELTARUNE Chapter 6":
+        BuildMod(6);
+        return;
+
+    case "DELTARUNE Chapter 7":
+        BuildMod(7);
+        return;
+
+    default:
+        ScriptError("Joc invalid (folosește DELTARUNE (Selectare Capitol) sau DELTARUNE Chapter 1-7).");
+        return;
+}
