@@ -20,11 +20,45 @@ string GetFolder(string path)
 }
 
 UndertaleEmbeddedAudio audioFile = null;
-int    audioID              = -1;
-int    audioGroupID         = -1;
-int    embAudioID           = -1;
-bool   usesAGRP             = (Data.AudioGroups.Count > 0);
-string path                 = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/sounds");
+int    audioID      = -1;
+int    audioGroupID = -1;
+int    embAudioID   = -1;
+bool   usesAGRP     = (Data.AudioGroups.Count > 0);
+string path = "";
+switch(Data?.GeneralInfo?.DisplayName?.Content)
+{
+    case "DELTARUNE":
+        path = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter_select/sounds");
+        break;
+
+    case "DELTARUNE Chapter 1":
+        path = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter1/sounds");
+        break;
+
+    case "DELTARUNE Chapter 2":
+        path = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter2/sounds");
+        break;
+
+    case "DELTARUNE Chapter 3":
+        path = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter3/sounds");
+        break;
+
+    case "DELTARUNE Chapter 4":
+        path = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter4/sounds");
+        break;
+
+    case "DELTARUNE Chapter 5":
+        path = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter5/sounds");
+        break;
+
+    case "DELTARUNE Chapter 6":
+        path = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter6/sounds");
+        break;
+
+    case "DELTARUNE Chapter 7":
+        path = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter7/sounds");
+        break;
+}
 
 foreach(DirectoryInfo dir in new DirectoryInfo(path).GetDirectories())
 {

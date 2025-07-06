@@ -637,7 +637,41 @@ public static SpriteType GetSpriteType(string path)
 
 string CheckValidity()
 {
-    string importFolder = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/sprites");
+    string importFolder = "";
+    switch(Data?.GeneralInfo?.DisplayName?.Content)
+    {
+        case "DELTARUNE":
+            importFolder = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter_select/sprites");
+            break;
+
+        case "DELTARUNE Chapter 1":
+            importFolder = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter1/sprites");
+            break;
+
+        case "DELTARUNE Chapter 2":
+            importFolder = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter2/sprites");
+            break;
+
+        case "DELTARUNE Chapter 3":
+            importFolder = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter3/sprites");
+            break;
+
+        case "DELTARUNE Chapter 4":
+            importFolder = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter4/sprites");
+            break;
+
+        case "DELTARUNE Chapter 5":
+            importFolder = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter5/sprites");
+            break;
+
+        case "DELTARUNE Chapter 6":
+            importFolder = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter6/sprites");
+            break;
+
+        case "DELTARUNE Chapter 7":
+            importFolder = Path.Combine(Path.GetDirectoryName(ScriptPath), "../mod/chapter7/sprites");
+            break;
+    }
 
     bool hadMessage = false;
     string currSpriteName = null;
