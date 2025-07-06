@@ -2,7 +2,7 @@
   <img src="deltarune-ro-logo.png" title="Logo DELTARUNE in Romana">
 </p>
 
-# Demo-ul DELTARUNE Capitolele 1-4 în Română
+# DELTARUNE Capitolele 1-4 în Română
 <b>NOTĂ</b>: Această pagină este doar pentru development. Pentru lansări oficiale ale modului, intră [aici](https://douper.itch.io/deltromana).
 
 Această traducere a fost începută de Douper și am reușit să creăm un mod care traduce tot jocul DELTARUNE în limba română.
