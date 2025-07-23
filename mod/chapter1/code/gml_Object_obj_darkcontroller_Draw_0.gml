@@ -1,12 +1,12 @@
 /// PATCH
 
 /// REPLACE
-        draw_sprite_ext(scr_84_get_sprite("spr_darkmenudesc"), global.menucoord[0], xx + 20, (yy + tp) - 56, 2, 2, 0, c_white, 1);
+        draw_sprite_ext(_spr_darkmenudesc, global.menucoord[0], xx + 20, (yy + tp) - 56, 2, 2, 0, c_white, 1);
 /// CODE
         if (global.menucoord[0] == 1 && global.lang == "en")
-            draw_sprite_ext(scr_84_get_sprite("spr_darkmenudesc"), global.menucoord[0], xx + 20, (yy + tp) - 62, 2, 2, 0, c_white, 1);
+            draw_sprite_ext(_spr_darkmenudesc, global.menucoord[0], xx + 20, (yy + tp) - 62, 2, 2, 0, c_white, 1);
         else
-            draw_sprite_ext(scr_84_get_sprite("spr_darkmenudesc"), global.menucoord[0], xx + 20, (yy + tp) - 56, 2, 2, 0, c_white, 1);
+            draw_sprite_ext(_spr_darkmenudesc, global.menucoord[0], xx + 20, (yy + tp) - 56, 2, 2, 0, c_white, 1);
 /// END
 
 /// REPLACE
@@ -16,30 +16,30 @@
 /// END
 
 /// REPLACE
-    draw_sprite_ext(scr_84_get_sprite("spr_dmenu_captions"), 0, xx + 124, yy + 84, 2, 2, 0, c_white, 1);
+    draw_sprite_ext(_spr_dmenu_captions, 0, xx + 124, yy + 84, 2, 2, 0, c_white, 1);
 /// CODE
     if (global.lang == "ja")
-        draw_sprite_ext(scr_84_get_sprite("spr_dmenu_captions"), 0, xx + 124, yy + 84, 2, 2, 0, c_white, 1);
+        draw_sprite_ext(_spr_dmenu_captions, 0, xx + 124, yy + 84, 2, 2, 0, c_white, 1);
     else
-        draw_sprite_ext(scr_84_get_sprite("spr_dmenu_captions"), 0, xx + 124, yy + 80, 2, 2, 0, c_white, 1);
+        draw_sprite_ext(_spr_dmenu_captions, 0, xx + 124, yy + 80, 2, 2, 0, c_white, 1);
 /// END
 
 /// REPLACE
-    draw_sprite_ext(scr_84_get_sprite("spr_dmenu_captions"), 0, xx + 118, yy + 86, 2, 2, 0, c_white, 1);
+    draw_sprite_ext(_spr_dmenu_captions, 0, xx + 118, yy + 86, 2, 2, 0, c_white, 1);
 /// CODE
     if (global.lang == "ja")
-        draw_sprite_ext(scr_84_get_sprite("spr_dmenu_captions"), 0, xx + 118, yy + 86, 2, 2, 0, c_white, 1);
+        draw_sprite_ext(_spr_dmenu_captions, 0, xx + 118, yy + 86, 2, 2, 0, c_white, 1);
     else
-        draw_sprite_ext(scr_84_get_sprite("spr_dmenu_captions"), 0, xx + 118, yy + 82, 2, 2, 0, c_white, 1);
+        draw_sprite_ext(_spr_dmenu_captions, 0, xx + 118, yy + 82, 2, 2, 0, c_white, 1);
 /// END   
 
 /// REPLACE
-    draw_sprite_ext(scr_84_get_sprite("spr_dmenu_captions"), 5, xx + 380, yy + 210, 2, 2, 0, c_white, 1);
+    draw_sprite_ext(_spr_dmenu_captions, 5, xx + 380, yy + 210, 2, 2, 0, c_white, 1);
 /// CODE
     if (global.lang == "ja")
-        draw_sprite_ext(scr_84_get_sprite("spr_dmenu_captions"), 5, xx + 380, yy + 210, 2, 2, 0, c_white, 1);
+        draw_sprite_ext(_spr_dmenu_captions, 5, xx + 380, yy + 210, 2, 2, 0, c_white, 1);
     else
-        draw_sprite_ext(scr_84_get_sprite("spr_dmenu_captions"), 5, xx + 380, yy + 206, 2, 2, 0, c_white, 1);
+        draw_sprite_ext(_spr_dmenu_captions, 5, xx + 380, yy + 206, 2, 2, 0, c_white, 1);
 /// END
 
 /// REPLACE
