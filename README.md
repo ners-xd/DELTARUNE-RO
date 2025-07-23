@@ -13,7 +13,7 @@ Cum să contribui la mod:
 - Creează un fork al repo-ului și descarcă fișierele;
 - Descarcă [ultima](https://github.com/nhaar/ump/releases/latest) versiune de UMP și pune script-ul în același folder cu modul;
 - Folosește [ultima](https://github.com/UnderminersTeam/UndertaleModTool/releases/latest) versiune de UndertaleModTool;
-- Deschide data.win-ul jocului, apasă sus pe Scripts -> Run other script... -> ro_script.csx pentru a importa modul și poți salva fișierul (versiunea suportată este v1.02 / CH1 1.37 / CH2 1.43 / CH3 v0.0.091 / CH4 v0.0.090);
+- Deschide data.win-ul jocului, apasă sus pe Scripts -> Run other script... -> ro_script.csx pentru a importa modul și poți salva fișierul (versiunea suportată este v1.03 / CH1 1.38 / CH2 1.44 / CH3 v0.0.094 / CH4 v0.0.094);
 - Poți vedea un ghid despre cum să folosești UMP [aici](https://github.com/nhaar/ump/blob/main/guide/guide.md);
 - Dacă ai făcut niște modificări și vrei să fie adăugate în mod, deschide un Pull Request și ne vom uita peste el.
 
