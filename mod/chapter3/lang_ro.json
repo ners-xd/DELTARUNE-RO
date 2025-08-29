@@ -6226,7 +6226,7 @@
   "obj_room_teevie_chef_slash_Step_0_gml_274_0": "\\EN* Kris^1, pregătește-te de altă luptă!/",
   "obj_room_teevie_chef_slash_Step_0_gml_276_0": "\\E2* Ha^1! Înăbușește-ți gura^1, dragul meu tontălău!/%",
   "obj_room_teevie_chef_slash_Step_0_gml_300_0": "\\E6* Ne aflăm aici pentru gustări./",
-  "obj_room_teevie_chef_slash_Step_0_gml_301_0": "\\E4* Continuați. Nu voiam a ne război./",
+  "obj_room_teevie_chef_slash_Step_0_gml_301_0": "\\E4* Continuați. Nu vream a ne război./",
   "obj_room_teevie_chef_slash_Step_0_gml_303_0": "\\EL* Ămm..^1. nu vrei?/",
   "obj_room_teevie_chef_slash_Step_0_gml_304_0": "\\EK* Dar..^1. dacă ne capturezi^1, nu vei primi admirarea lui Tenna?/%",
   "obj_room_teevie_chef_slash_Step_0_gml_323_0": "\\E4* Haha^1! Oh^1, te rog^1! Nu mă cobor la dorințe de rând.../",
@@ -6252,17 +6252,17 @@
   "obj_room_teevie_chef_slash_Step_0_gml_492_0": "* Fiecare clipă cu Rouxlsy^1, e..^1. ăm^1, așa informativă./",
   "obj_room_teevie_chef_slash_Step_0_gml_493_0": "* Vezi tu^1, ne pune să scriem totul pe cărțile astea.../",
   "obj_room_teevie_chef_slash_Step_0_gml_494_0": "\\E4* Sestemul de relații al lui Rouxls Kaard.../%",
-  "obj_room_teevie_chef_slash_Step_0_gml_514_0": "\\E0* Seest^1, thou writeth everything thou feelst on a Card./",
-  "obj_room_teevie_chef_slash_Step_0_gml_515_0": "\\E2* Then^1, when it's timeth to communicathe./",
-  "obj_room_teevie_chef_slash_Step_0_gml_516_0": "\\E4* Thou just..^1. throwest them all awain./",
-  "obj_room_teevie_chef_slash_Step_0_gml_517_0": "\\E0* Becauseth everything we threeth needst./",
-  "obj_room_teevie_chef_slash_Step_0_gml_518_0": "\\E3* Patteths my Chest^1,/",
-  "obj_room_teevie_chef_slash_Step_0_gml_519_0": "\\E4* Is right..^1. Here./",
-  "obj_room_teevie_chef_slash_Step_0_gml_521_0": "* In..^1. our hearts?/",
-  "obj_room_teevie_chef_slash_Step_0_gml_523_0": "\\E6* What? No. This is justeth where I keepeth MY Cards./",
-  "obj_room_teevie_chef_slash_Step_0_gml_524_0": "\\E1* They're Strongre. They haveth like^1, Abilitiese and stuff./",
-  "obj_room_teevie_chef_slash_Step_0_gml_525_0": "\\E3* It's really justeth about havingst the Best Decke./",
-  "obj_room_teevie_chef_slash_Step_0_gml_527_0": "* Umm^1, see? This system^1, really makes me see how bright Lanino is.../%",
+  "obj_room_teevie_chef_slash_Step_0_gml_514_0": "\\E0* Vedeți^1, voi scrieți totul ce semțiți pe o carte./",
+  "obj_room_teevie_chef_slash_Step_0_gml_515_0": "\\E2* Apoi^1, cându e timpul să comunicăm./",
+  "obj_room_teevie_chef_slash_Step_0_gml_516_0": "\\E4* Voi doaru..^1. le aruncaț'./",
+  "obj_room_teevie_chef_slash_Step_0_gml_517_0": "\\E0* Fiindcă totul de care avem nevoie./",
+  "obj_room_teevie_chef_slash_Step_0_gml_518_0": "\\E3* Mă batu pe pept^1,/",
+  "obj_room_teevie_chef_slash_Step_0_gml_519_0": "\\E4* E chiar.^1. aici./",
+  "obj_room_teevie_chef_slash_Step_0_gml_521_0": "* În..^1. inimile noastre?/",
+  "obj_room_teevie_chef_slash_Step_0_gml_523_0": "\\E6* Poftim? Nu. Aici doaru îmi țin cărțile./",
+  "obj_room_teevie_chef_slash_Step_0_gml_524_0": "\\E1* Suntu puternice. Au gen^1, abilități și altele./",
+  "obj_room_teevie_chef_slash_Step_0_gml_525_0": "\\E3* E mai mult vorba de cine are mâna de cărți mai bună./",
+  "obj_room_teevie_chef_slash_Step_0_gml_527_0": "* Ămm^1, vezi? Sistemu' ăsta^1, chiar mă face să văd cât de luminată e Lanino.../%",
   "obj_room_teevie_chef_slash_Step_0_gml_547_0": "\\E4* Nu te teme. Am trecut peste calea violenței./",
   "obj_room_teevie_chef_slash_Step_0_gml_548_0": "\\E0* Niciodată nu ne vom mai război./",
   "obj_room_teevie_chef_slash_Step_0_gml_549_0": "\\E4* Căci am descoperit..^1. iubirea. Iubiți./%",
@@ -12999,6 +12999,7 @@
   "UNUSED_slash_UNUSED_gml_11_0": "... o fi oare ăsta coșmarul?",
   "UNUSED_slash_UNUSED_gml_12_0": "... sau au fost toate celelalte lucruri vise?"
 }
+
 
 
 
