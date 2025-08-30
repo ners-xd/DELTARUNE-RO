@@ -1168,9 +1168,9 @@
   "obj_ch4_PDC01A_slash_Step_0_gml_52_0": "Cavalerul.../",
   "obj_ch4_PDC01A_slash_Step_0_gml_53_0": "Cavalerul Răcnitor.../",
   "obj_ch4_PDC01A_slash_Step_0_gml_54_0": ".../",
-  "obj_ch4_PDC01A_slash_Step_0_gml_55_0": "Cel care\naduce întunericul./",
-  "obj_ch4_PDC01A_slash_Step_0_gml_56_0": "Cel care\nîncearcă să\ndistrugă lumea.../",
-  "obj_ch4_PDC01A_slash_Step_0_gml_57_0": "..^1. deci acesta este\nadversarul nostru./%",
+  "obj_ch4_PDC01A_slash_Step_0_gml_55_0": "Cel care aduce\nîntunericul./",
+  "obj_ch4_PDC01A_slash_Step_0_gml_56_0": "Cel care încearcă să\ndistrugă lumea.../",
+  "obj_ch4_PDC01A_slash_Step_0_gml_57_0": "..^1. deci ăsta ne e\nadversar./%",
   "obj_ch4_PDC01A_slash_Step_0_gml_76_0": "Până azi.../%",
   "obj_ch4_PDC01A_slash_Step_0_gml_92_0": "Se simțea de parcă,\nindiferent de seriozitatea\naventurilor noastre.../",
   "obj_ch4_PDC01A_slash_Step_0_gml_93_0": "Ele făceau parte\ndintr-o altă lume./%",
@@ -14689,6 +14689,7 @@
   "UNUSED_slash_UNUSED_gml_16_0": "When I hear that noise, I feel like someone's listening.",
   "UNUSED_slash_UNUSED_gml_17_0": "Anyone, if you're there... thank you."
 }
+
 
 
 
