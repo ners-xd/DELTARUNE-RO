@@ -12829,8 +12829,8 @@
   "scr_text_slash_scr_text_gml_10493_0": "#Nu citi",
   "scr_text_slash_scr_text_gml_10498_0": "\\EL* Ce? E un \"manual de amintire\" pe care mă uitam peste.../",
   "scr_text_slash_scr_text_gml_10499_0": "\\EK* Cum a ajuns aici mai exact?/",
-  "scr_text_slash_scr_text_gml_10509_0": "* (SPARE enemies whose names become \\cYYELLOW\\cW!)/",
-  "scr_text_slash_scr_text_gml_10510_0": "* (Use PACIFY on TIRED enemies whose names are \\cBBLUE\\cW!)/",
+  "scr_text_slash_scr_text_gml_10509_0": "* (Cruță inamicii ale căror nume sunt \\cYGALBEN\\cW!)/",
+  "scr_text_slash_scr_text_gml_10510_0": "* (Folosește PACIFICARE pe inamicii OBOSIȚI ale căror nume sunt \\cBALBASTRU\\cW!)/",
   "scr_text_slash_scr_text_gml_10511_0": "* (And..^1. remember Susie and Ralsei's S-Action and R-Action^1, too!)/%",
   "scr_text_slash_scr_text_gml_10537_0": "A tea that has deteriorated after a short while#due to its poor craftsmanship. +10HP",
   "scr_text_slash_scr_text_gml_10542_0": "RottenTea",
@@ -13002,6 +13002,7 @@
   "UNUSED_slash_UNUSED_gml_11_0": "... o fi oare ăsta coșmarul?",
   "UNUSED_slash_UNUSED_gml_12_0": "... sau au fost toate celelalte lucruri vise?"
 }
+
 
 
 
