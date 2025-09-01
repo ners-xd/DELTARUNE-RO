@@ -2046,7 +2046,7 @@
   "obj_ch3_PGS01A_slash_Step_0_gml_138_0": "\\EH* Kris..^1. Kris..^1. Hei^1, trezește-te!!/",
   "obj_ch3_PGS01A_slash_Step_0_gml_139_0": "\\EP* Suntem..^1. în Lumea Întunecată!!/%",
   "obj_ch3_PGS01A_slash_Step_0_gml_259_0": "\\EF* Cum dracu' am ajuns...?/%",
-  "obj_ch3_PGS01A_slash_Step_0_gml_273_0": "\\E7* ... apăi^1, cui pasă! Asta înseamnă o altă aventură^1, nu?/%",
+  "obj_ch3_PGS01A_slash_Step_0_gml_273_0": "\\E7* ... apăi^1, cui îi pasă! Asta înseamnă o altă aventură^1, nu?/%",
   "obj_ch3_PGS01A_slash_Step_0_gml_283_0": "\\EA* Ia să vedem ce mai e pe-aici./%",
   "obj_ch3_PGS01A_slash_Step_0_gml_362_0": "* (Pentru un motiv^1, ai decis să readormi...)/%",
   "obj_ch3_PGS01A_slash_Step_0_gml_377_0": "\\EK* Băi^1, dormi în LUMEA ÎNTUNECATĂ?/",
@@ -2063,7 +2063,7 @@
   "obj_ch3_PGS01B_slash_Step_0_gml_95_0": "\\E7* Hei^1, Ralsei!/",
   "obj_ch3_PGS01B_slash_Step_0_gml_96_0": "\\E9* Nu o să-ți vină să crezi ce-am făcut după aventura de ieri!/",
   "obj_ch3_PGS01B_slash_Step_0_gml_100_0": "\\E2* După ce-am salvat lumea^1, m-am dus la Kris acasă.../",
-  "obj_ch3_PGS01B_slash_Step_0_gml_104_0": "\\E9* Și mai puțin am făcut un tort.../",
+  "obj_ch3_PGS01B_slash_Step_0_gml_104_0": "\\E9* Și mai târziu am făcut o plăcintă.../",
   "obj_ch3_PGS01B_slash_Step_0_gml_108_0": "\\E2* Și ne-am uitat la filme TOATĂ noaptea!/",
   "obj_ch3_PGS01B_slash_Step_0_gml_113_0": "\\EH* Aww^1, Susie^1! Pare că te-ai distrat!/%",
   "obj_ch3_PGS01B_slash_Step_0_gml_154_0": "\\EQ* Da^1, nu era AȘA de rău.../",
@@ -2879,16 +2879,16 @@
   "obj_darkcontroller_slash_Draw_0_gml_286_0": "Pufoșenie:",
   "obj_darkcontroller_slash_Draw_0_gml_327_0": "Bunătate:",
   "obj_darkcontroller_slash_Draw_0_gml_331_0": "Caninitate:",
-  "obj_darkcontroller_slash_Draw_0_gml_382_0": "LV1 Snowcaster#Might be able to#use some cool moves.",
+  "obj_darkcontroller_slash_Draw_0_gml_382_0": "NV1 Snowcaster#Might be able to#use some cool moves.",
   "obj_darkcontroller_slash_Draw_0_gml_383_0": "LV~1 Frostmancer#Freezes the enemy.",
   "obj_darkcontroller_slash_Draw_0_gml_384_0": "LV~1 Ice Trancer#Receives pain to#become stronger.",
   "obj_darkcontroller_slash_Draw_0_gml_385_0": "LV~1 Moss Neutral#Neither chaotic nor#lawful to moss.",
   "obj_darkcontroller_slash_Draw_0_gml_388_0": "Coldness ",
   "obj_darkcontroller_slash_Draw_0_gml_391_0": "Boldness",
   "obj_darkcontroller_slash_Draw_0_gml_416_0": "???",
-  "obj_darkcontroller_slash_Draw_0_gml_448_0": "LV3 Tactician#Commands the party#by ACTs.",
-  "obj_darkcontroller_slash_Draw_0_gml_451_0": "LV3 Director#Moves the actors#around.",
-  "obj_darkcontroller_slash_Draw_0_gml_453_0": "(Nothing)",
+  "obj_darkcontroller_slash_Draw_0_gml_448_0": "NV3 Tactic#Ordonează echipa#cu ACT-uri.",
+  "obj_darkcontroller_slash_Draw_0_gml_451_0": "NV3 Director#Mișcă actorii.",
+  "obj_darkcontroller_slash_Draw_0_gml_453_0": "(Nimic)",
   "obj_darkcontroller_slash_Draw_0_gml_456_0": "LV3 Moss Mystery#Intermediate moss#skills.",
   "obj_darkcontroller_slash_Draw_0_gml_461_0": "LV3 Blazer#Specializes in#sword attacks.",
   "obj_darkcontroller_slash_Draw_0_gml_465_0": "(Nothing)",
@@ -3326,7 +3326,7 @@
   "obj_dw_teevie_watercooler_slash_Step_0_gml_288_0": "* (În cufărul cu comori...)/",
   "obj_dw_teevie_watercooler_slash_Step_0_gml_289_0": "* (.. e un alt \\cBDOZATOR DE APĂ\\cW!)/",
   "obj_dw_teevie_watercooler_slash_Step_0_gml_290_0": "* (Dar^1, mai sunt \\cY500 PUNCTE\\cW)/%",
-  "obj_dw_teevie_watercooler_slash_Step_0_gml_298_0": "* (inside was \\cY500 POINTs\\cW!)/%",
+  "obj_dw_teevie_watercooler_slash_Step_0_gml_298_0": "* (înăuntru sunt \\cY500 PUNCTE\\cW!)/%",
   "obj_dw_teevie_zapperbtimeout_slash_Step_0_gml_16_0": "#Yes",
   "obj_dw_teevie_zapperbtimeout_slash_Step_0_gml_17_0": "#No",
   "obj_dw_teevie_zapperbtimeout_slash_Step_0_gml_20_0": "* There's a chain stopping the way./",
@@ -13002,6 +13002,7 @@
   "UNUSED_slash_UNUSED_gml_11_0": "... o fi oare ăsta coșmarul?",
   "UNUSED_slash_UNUSED_gml_12_0": "... sau au fost toate celelalte lucruri vise?"
 }
+
 
 
 
