@@ -2912,8 +2912,8 @@
   "obj_darkcontroller_slash_Draw_0_gml_620_0": "LV3 Dark Prince#Dark-World being.#Has friends.",
   "obj_darkcontroller_slash_Draw_0_gml_624_0": "??? ",
   "obj_darkcontroller_slash_Draw_0_gml_651_0": "Carried",
-  "obj_darkcontroller_slash_Draw_0_gml_766_0": "(No ability.)",
-  "obj_darkcontroller_slash_Draw_0_gml_803_0": "(No ability.)",
+  "obj_darkcontroller_slash_Draw_0_gml_766_0": "(Fără abilitate.)",
+  "obj_darkcontroller_slash_Draw_0_gml_803_0": "(Fără abilitate.)",
   "obj_darkcontroller_slash_Draw_0_gml_837_0": "FOLOS.",
   "obj_darkcontroller_slash_Draw_0_gml_839_0": "ARUNC.",
   "obj_darkcontroller_slash_Draw_0_gml_841_0": "CHEIE",
@@ -13002,6 +13002,7 @@
   "UNUSED_slash_UNUSED_gml_11_0": "... o fi oare ăsta coșmarul?",
   "UNUSED_slash_UNUSED_gml_12_0": "... sau au fost toate celelalte lucruri vise?"
 }
+
 
 
 
