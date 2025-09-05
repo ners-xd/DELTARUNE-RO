@@ -1748,12 +1748,12 @@
   "obj_ch4_PDC07_slash_Step_0_gml_93_0": "\\EA* Kris^1, ai ceva gustări?/%",
   "obj_ch4_PDC07_slash_Step_0_gml_112_0": "\\EK* ..^1. cred că merge./%",
   "obj_ch4_PDC07_slash_Step_0_gml_120_0": "\\E4* Susie^1, Kris^1! Bună!!/%",
-  "obj_ch4_PDC07_slash_Step_0_gml_132_0": "\\E8* Scuze că am întârziat...^1!  Doar trebuia să-/%",
+  "obj_ch4_PDC07_slash_Step_0_gml_132_0": "\\E8* Scuze că am întârziat...^1! Doar trebuia să-/%",
   "obj_ch4_PDC07_slash_Step_0_gml_144_0": "\\E2* Da?/%",
   "obj_ch4_PDC07_slash_Step_0_gml_157_0": "\\EP* Ăm^1, e ăla un..^1. un trandafir?/",
   "obj_ch4_PDC07_slash_Step_0_gml_159_0": "\\E7* Ăsta? A^1, da^1, scuze./%",
   "obj_ch4_PDC07_slash_Step_0_gml_188_0": "\\EG* .../",
-  "obj_ch4_PDC07_slash_Step_0_gml_190_0": "\\E6* Oh rahat^1, ai vrut-o?/%",
+  "obj_ch4_PDC07_slash_Step_0_gml_190_0": "\\E6* Oh rahat^1, l-ai vrut?/%",
   "obj_ch4_PDC07_slash_Step_0_gml_206_0": "\\E7* Pot să iau tulpina dacă-/%",
   "obj_ch4_PDC07_slash_Step_0_gml_214_0": "Ce? Ce? Ce? Ce?",
   "obj_ch4_PDC07_slash_Step_0_gml_217_0": "\\E8* Nu^1, e ok^1! Pe aici^1!\\f1/%",
@@ -1789,9 +1789,9 @@
   "obj_ch4_PDC09A_slash_Step_0_gml_139_0": "\\E4* Close^1! It's a holiday treat launcher with automatic scheduling!/",
   "obj_ch4_PDC09A_slash_Step_0_gml_140_0": "\\E0* Just one click^1, and.../%",
   "obj_ch4_PDC09A_slash_Step_0_gml_154_0": "\\EJ* Just goes to show you my dad's sense of humor^1, faha.../%",
-  "obj_ch4_PDC09A_slash_Step_0_gml_191_0": "\\EK* ..^1. what the heck is this?/",
-  "obj_ch4_PDC09A_slash_Step_0_gml_193_0": "\\E8* Um^1, it's a..^1. holiday treat catcher^1! ..^1. you know?/%",
-  "obj_ch4_PDC09A_slash_Step_0_gml_204_0": "\\EH* ..^1. anyone want to tell me it's normal to have one? Nobody...?/%",
+  "obj_ch4_PDC09A_slash_Step_0_gml_191_0": "\\EK* ..^1. ce naiba-i asta?/",
+  "obj_ch4_PDC09A_slash_Step_0_gml_193_0": "\\E8* Ăm^1, e un..^1. prinzător de dulcețuri^1! ..^1. știi?/%",
+  "obj_ch4_PDC09A_slash_Step_0_gml_204_0": "\\EH* ..^1. vrea careva să-mi spună că e normal să ai unul? Nimeni...?/%",
   "obj_ch4_PDC09_slash_Step_0_gml_19_0": "\\E8* (Kris^1! This is my big chance^1, you know...!)/%",
   "obj_ch4_PDC09_slash_Step_0_gml_81_0": "Ne întâlnim la canapea când\nsunteți gata, să căutați?",
   "obj_ch4_PDC09_slash_Step_0_gml_84_0": "\\E4* Bun venit în ca-a-asa mea..^1./",
@@ -7452,7 +7452,7 @@
   "obj_readable_room1_slash_Other_10_gml_3548_0": "\\E0* (Kris is staring super intense..^1. this room has gotta be it.)/",
   "obj_readable_room1_slash_Other_10_gml_3549_0": "\\E1* Sorry Noelle^1, but we gotta go in here.../",
   "obj_readable_room1_slash_Other_10_gml_3551_0": "\\EB* To..^1. to the bathroom?\\f0/%",
-  "obj_readable_room1_slash_Other_10_gml_3565_0": "* (It's a thermostat. The only option is cold.)/%",
+  "obj_readable_room1_slash_Other_10_gml_3565_0": "* (E un termostat. Singura opțiune e rece.)/%",
   "obj_readable_room1_slash_Other_10_gml_3592_0": "\\EI* (There wouldn't be so many Santas with dead batteries...)/",
   "obj_readable_room1_slash_Other_10_gml_3593_0": "\\EH* (If Kris hadn't glued the cases shut trying to \"starve them\"...)/%",
   "obj_readable_room1_slash_Other_10_gml_3606_0": "* (It's a fridge containing lots of greens and bottled water.)/%",
@@ -7537,10 +7537,10 @@
   "obj_readable_room1_slash_Other_10_gml_4095_0": "* (Hainele astea nu mai au nicio putere asupra ta.)/%",
   "obj_readable_room1_slash_Other_10_gml_4100_0": "* (Hainele de biserică au fost puse la pământ.)/%",
   "obj_readable_room1_slash_Other_10_gml_4107_0": "* (Flori într-un coș de gunoi. Nimic ciudat.)/%",
-  "obj_readable_room1_slash_Other_10_gml_4120_0": "* (It's an empty gift box.)~1",
-  "obj_readable_room1_slash_Other_10_gml_4128_0": "\\E2* Umm^1, Kris? Do you need to check^1, all of these?/",
+  "obj_readable_room1_slash_Other_10_gml_4120_0": "* (E o cutie de cadouri goală.)~1",
+  "obj_readable_room1_slash_Other_10_gml_4128_0": "\\E2* Ămm^1, Kris? Trebuie să le^1, știi tu^1, verifici pe toate?/",
   "obj_readable_room1_slash_Other_10_gml_4129_0": "Huh? ... reference?",
-  "obj_readable_room1_slash_Other_10_gml_4130_0": "\\E0* I mean..^1. gotta admit this room is kinda sus./",
+  "obj_readable_room1_slash_Other_10_gml_4130_0": "\\E0* Bă..^1. tre' să recunosc că e suspicioasă camera./",
   "obj_readable_room1_slash_Other_10_gml_4130_0_b": "(I'll stop talking now.)",
   "obj_readable_room1_slash_Other_10_gml_4131_0": "\\EB* ..^1. especially that vent./",
   "obj_readable_room1_slash_Other_10_gml_4133_0": "\\E4* Haha^1, nice reference^1, Susie!/",
@@ -14695,6 +14695,7 @@
   "UNUSED_slash_UNUSED_gml_16_0": "When I hear that noise, I feel like someone's listening.",
   "UNUSED_slash_UNUSED_gml_17_0": "Anyone, if you're there... thank you."
 }
+
 
 
 
