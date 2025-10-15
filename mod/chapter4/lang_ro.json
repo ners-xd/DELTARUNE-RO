@@ -4822,11 +4822,11 @@
   "obj_homealone_basement_convo_slash_Create_0_gml_99_0": "* Bă^1, luminile...",
   "obj_homealone_basement_convo_slash_Create_0_gml_100_0": "* S-a^1, gen^1, luat curentul..?",
   "obj_homealone_basement_convo_slash_Create_0_gml_101_0": "* Aaaagh^1, Kris!",
-  "obj_homealone_basement_convo_slash_Create_0_gml_102_0": "* Știm că faci una din farseșe tale tâmpite!",
+  "obj_homealone_basement_convo_slash_Create_0_gml_102_0": "* Știm că faci una din farsele tale tâmpite!",
   "obj_homealone_basement_convo_slash_Create_0_gml_103_0": "* ..^1. Hai să ridicăm pârghia siguranței.",
   "obj_homealone_basement_convo_slash_Create_0_gml_108_0": "\\EK* Ups. Bradul...",
   "obj_homealone_basement_convo_slash_Create_0_gml_109_0": "\\E9* Ămm^1, scuze^1, tati n-a curățat beciul anul ăsta...",
-  "obj_homealone_basement_convo_slash_Create_0_gml_110_0": "\\E3* Anyways^1, the breaker's down here somewhere.",
+  "obj_homealone_basement_convo_slash_Create_0_gml_110_0": "\\E3* În fine^1, siguranța e pe aici.",
   "obj_homealone_basement_convo_slash_Create_0_gml_115_0": "\\E2* You know what REALLY made me afraid of basements?",
   "obj_homealone_basement_convo_slash_Create_0_gml_116_0": "\\E8* Like..^1. the underground levels from Dragon Blazers.",
   "obj_homealone_basement_convo_slash_Create_0_gml_117_0": "\\E3* The music just repeats over and over again.",
@@ -4875,10 +4875,10 @@
   "obj_homealone_basement_convo_slash_Create_0_gml_166_0": "\\EK* Okay^1, where the hell's the breaker^1, though.",
   "obj_homealone_basement_convo_slash_Create_0_gml_167_0": "\\E8* Right? If we keep taking so long...",
   "obj_homealone_basement_convo_slash_Create_0_gml_168_0": "\\EJ* The severed hand is gonna touch us first.",
-  "obj_homealone_basement_convo_slash_Create_0_gml_173_0": "\\EE* Oh my gosh^1, this just brushed against my leg...",
-  "obj_homealone_basement_convo_slash_Create_0_gml_174_0": "\\EE* What the hell is that!?",
-  "obj_homealone_basement_convo_slash_Create_0_gml_175_0": "\\EH* It's..^1. it's an..^1. angel doll...",
-  "obj_homealone_basement_convo_slash_Create_0_gml_176_0": "\\EH* It..^1. it was goddamn moving!",
+  "obj_homealone_basement_convo_slash_Create_0_gml_173_0": "\\EE* O Doamne^1, chestia asta și-a dat de piciorul meu...",
+  "obj_homealone_basement_convo_slash_Create_0_gml_174_0": "\\EE* Ce-i dracu-i aia!?",
+  "obj_homealone_basement_convo_slash_Create_0_gml_175_0": "\\EH* E..^1. e o..^1. păpușă în formă de înger...",
+  "obj_homealone_basement_convo_slash_Create_0_gml_176_0": "\\EH* Se..^1. se mișca dracului!",
   "obj_homealone_basement_convo_slash_Create_0_gml_179_0": "\\EC* Dude^1, it^1, uh^1, totally moved though.",
   "obj_homealone_basement_convo_slash_Create_0_gml_180_0": "\\EI* Let's just..^1. wait and see if it moves...",
   "obj_homealone_basement_convo_slash_Create_0_gml_183_0": "\\EC* It's gonna move.",
@@ -14695,6 +14695,7 @@
   "UNUSED_slash_UNUSED_gml_16_0": "When I hear that noise, I feel like someone's listening.",
   "UNUSED_slash_UNUSED_gml_17_0": "Anyone, if you're there... thank you."
 }
+
 
 
 
