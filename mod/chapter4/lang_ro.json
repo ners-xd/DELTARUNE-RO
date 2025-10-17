@@ -1857,7 +1857,7 @@
   "obj_ch4_PDC13D_slash_Step_0_gml_229_0": "\\E2* Ămm..^1. hai mai întâi să ne gândim./",
   "obj_ch4_PDC13D_slash_Step_0_gml_230_0": "\\E3* Dacă e un șoricel^1, îl putem ține ca animal de companie.../",
   "obj_ch4_PDC13D_slash_Step_0_gml_232_0": "\\E2* Heheh^1, bine. Și dacă e o mână tăiată.../",
-  "obj_ch4_PDC13D_slash_Step_0_gml_233_0": "\\EQ* O voi ține ca animalul MEU de comapnie./",
+  "obj_ch4_PDC13D_slash_Step_0_gml_233_0": "\\EQ* O voi ține ca animalul MEU de companie./",
   "obj_ch4_PDC13D_slash_Step_0_gml_235_0": "\\ES* Fahaha^1! Stai^1, lasă-mă s-o ridic și eu!/",
   "obj_ch4_PDC13D_slash_Step_0_gml_237_0": "\\E9* Heh^1, sigur. O ridicăm împreună./%",
   "obj_ch4_PDC13D_slash_Step_0_gml_274_0": "\\E4* E..^1. ciudat. Eram..^1. așa speriată adineauri./",
@@ -2040,11 +2040,11 @@
   "obj_ch4_PDC14B_slash_Step_0_gml_640_0": "\\EK* ..^1. Your dad caught me and started talking to me.../",
   "obj_ch4_PDC14B_slash_Step_0_gml_641_0": "\\EC* Until^1, ugh^1, Noelle's mom showed up^1, SUPER PISSED./",
   "obj_ch4_PDC14B_slash_Step_0_gml_642_0": "\\ED* ..^1. great. The hell are we gonna go back there now?/%",
-  "obj_ch4_PDC14C_slash_Step_0_gml_150_0": "* Hey^1, just so you know^1, me and Kris were in a band.../",
-  "obj_ch4_PDC14C_slash_Step_0_gml_151_0": "* So don't be surprised if I'm pretty good./%",
-  "obj_ch4_PDC14C_slash_Step_0_gml_180_0": "\\EE* Oops./%",
-  "obj_ch4_PDC14C_slash_Step_0_gml_197_0": "\\EK* ..^1. sure you wanna hear this?/",
-  "obj_ch4_PDC14C_slash_Step_0_gml_199_0": "\\E2* Huh? Yeah^1, of course^1! I.../",
+  "obj_ch4_PDC14C_slash_Step_0_gml_150_0": "* Nu știu dacă știai^1, dar eu și Kris avem o trupă.../",
+  "obj_ch4_PDC14C_slash_Step_0_gml_151_0": "* Deci să nu te sperii dacă știu cât de cât să cânt./%",
+  "obj_ch4_PDC14C_slash_Step_0_gml_180_0": "\\EE* Ups./%",
+  "obj_ch4_PDC14C_slash_Step_0_gml_197_0": "\\EK* ..^1. ești sigură că vrei s-auzi?/",
+  "obj_ch4_PDC14C_slash_Step_0_gml_199_0": "\\E2* Ce? Da^1, desigur^1! Eu.../",
   "obj_ch4_PDC14C_slash_Step_0_gml_200_0": "\\E9* I just always liked..^1. listening to someone play./",
   "obj_ch4_PDC14C_slash_Step_0_gml_202_0": "\\E7* Heh^1, okay. Then check this out./%",
   "obj_ch4_PDC14C_slash_Step_0_gml_239_0": "\\E2* Dude^1, I actually kind of kicked ass with that one./",
@@ -4910,7 +4910,7 @@
   "obj_homealone_dess_convo_slash_Create_0_gml_40_0": "\\E3* Așa. Chiar mă pune pe gânduri..^1. de ce?",
   "obj_homealone_dess_convo_slash_Create_0_gml_41_0": "\\E4* La final^1, am devenit așa bulversată..^1. că n-am mai pus întrebări.",
   "obj_homealone_dess_convo_slash_Create_0_gml_45_0": "*\\E4 Am ajuns..^1. Am ajuns într-un \\cYoraș mare\\cW^1, cu Kris.",
-  "obj_homealone_dess_convo_slash_Create_0_gml_46_0": "*\\E4 ce a fost interesant e că..^1. \\cYKris doar\\cW...",
+  "obj_homealone_dess_convo_slash_Create_0_gml_46_0": "*\\E4 Ce a fost interesant e că..^1. \\cYKris doar\\cW...",
   "obj_homealone_dess_convo_slash_Create_0_gml_47_0": "*\\E3 Kris^1, nu părea să se comporte \\cYnormal\\cW?",
   "obj_homealone_dess_convo_slash_Create_0_gml_48_0": "*\\E2 Se comporta..^1. Fix cum se comportă în mod \\cYrecent\\cW^1, cred.",
   "obj_homealone_dess_convo_slash_Create_0_gml_49_0": "*\\E0 Ce? Kris pare \\cYnormal\\cW în mod recent și mie.",
@@ -14695,6 +14695,7 @@
   "UNUSED_slash_UNUSED_gml_16_0": "When I hear that noise, I feel like someone's listening.",
   "UNUSED_slash_UNUSED_gml_17_0": "Anyone, if you're there... thank you."
 }
+
 
 
 
