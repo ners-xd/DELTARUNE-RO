@@ -145,13 +145,13 @@
   "DEVICE_MENU_slash_Draw_0_gml_121_2": "THEN IT WILL BE DESTROYED.",
   "DEVICE_MENU_slash_Draw_0_gml_125_0": "Completion FILE not found.",
   "DEVICE_MENU_slash_Draw_0_gml_127_0": " ",
-  "DEVICE_MENU_slash_Draw_0_gml_128_0": "Continue",
-  "DEVICE_MENU_slash_Draw_0_gml_128_1": "Back",
-  "DEVICE_MENU_slash_Draw_0_gml_129_0": "Start",
-  "DEVICE_MENU_slash_Draw_0_gml_129_1": "Back",
-  "DEVICE_MENU_slash_Draw_0_gml_130_0": "FILE not found.",
-  "DEVICE_MENU_slash_Draw_0_gml_131_0": "Yes",
-  "DEVICE_MENU_slash_Draw_0_gml_131_1": "No",
+  "DEVICE_MENU_slash_Draw_0_gml_128_0": "Continuă",
+  "DEVICE_MENU_slash_Draw_0_gml_128_1": "Înapoi",
+  "DEVICE_MENU_slash_Draw_0_gml_129_0": "Începe",
+  "DEVICE_MENU_slash_Draw_0_gml_129_1": "Înapoi",
+  "DEVICE_MENU_slash_Draw_0_gml_130_0": "FIȘIERUL nu a fost găsit.",
+  "DEVICE_MENU_slash_Draw_0_gml_131_0": "Da",
+  "DEVICE_MENU_slash_Draw_0_gml_131_1": "Nu",
   "DEVICE_MENU_slash_Draw_0_gml_131_2": "Copy over this file?",
   "DEVICE_MENU_slash_Draw_0_gml_132_0": "Yes",
   "DEVICE_MENU_slash_Draw_0_gml_132_1": "No",
@@ -14695,6 +14695,7 @@
   "UNUSED_slash_UNUSED_gml_16_0": "When I hear that noise, I feel like someone's listening.",
   "UNUSED_slash_UNUSED_gml_17_0": "Anyone, if you're there... thank you."
 }
+
 
 
 
