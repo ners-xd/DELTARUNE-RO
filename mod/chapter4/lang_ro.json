@@ -518,17 +518,17 @@
   "obj_ch4_DCA02_slash_Step_0_gml_290_0": "\\EC* ..^1. S-Susie!?/%",
   "obj_ch4_DCA02_slash_Step_0_gml_310_0": "\\ER* Hei^1, Ralsei^1, Kris e.../",
   "obj_ch4_DCA02_slash_Step_0_gml_312_0": "\\EC* Kris...!?/%",
-  "obj_ch4_DCA02_slash_Step_0_gml_331_0": "\\ET* Could you tell me how to.../",
-  "obj_ch4_DCA02_slash_Step_0_gml_333_0": "\\EQ* Susie^1, could you move out of the way?/%",
-  "obj_ch4_DCA02_slash_Step_0_gml_384_0": "\\EQ* Kris..^1. Kris^1, are you okay?/%",
-  "obj_ch4_DCA02_slash_Step_0_gml_399_0": "\\ED* Umm^1, I tried to uh^1, heal^1, but.../%",
-  "obj_ch4_DCA02_slash_Step_0_gml_418_0": "\\Ea* Susie^1, I know you were just trying to help^1, but.../",
-  "obj_ch4_DCA02_slash_Step_0_gml_419_0": "\\EQ* If someone's really hurt^1, don't..^1. try to fix it alone^1, okay?/",
-  "obj_ch4_DCA02_slash_Step_0_gml_421_0": "\\ES* ..^1. uh^1, yeah. Okay. Got it./%",
-  "obj_ch4_DCA02_slash_Step_0_gml_505_0": "\\E3* So^1, hey^1, uh^1, ~1's together!/",
-  "obj_ch4_DCA02_slash_Step_0_gml_506_0": "\\E2* We gonna^1, uh^1, pose now?/",
-  "obj_ch4_DCA02_slash_Step_0_gml_508_0": "\\EQ* Right^1! Um^1, sure!/%",
-  "obj_ch4_DCA02_slash_Step_0_gml_550_0": "\\EQ* Anyway^1, let's go.../%",
+  "obj_ch4_DCA02_slash_Step_0_gml_331_0": "\\ET* Ai putea să-mi zici cum.../",
+  "obj_ch4_DCA02_slash_Step_0_gml_333_0": "\\EQ* Susie^1, ai putea să te dai din cale?/%",
+  "obj_ch4_DCA02_slash_Step_0_gml_384_0": "\\EQ* Kris..^1. Kris^1, ești bine?/%",
+  "obj_ch4_DCA02_slash_Step_0_gml_399_0": "\\ED* Ămm^1, am încercat să^1, ă^1, îl vindec^1, dar.../%",
+  "obj_ch4_DCA02_slash_Step_0_gml_418_0": "\\Ea* Susie^1, știu că doar încercai să-l ajuți^1, dar.../",
+  "obj_ch4_DCA02_slash_Step_0_gml_419_0": "\\EQ* Dacă cineva chiar e rănit^1, nu..^1. o face singură^1, ok?/",
+  "obj_ch4_DCA02_slash_Step_0_gml_421_0": "\\ES* ..^1. ă^1, da. Ok. Am înțeles./%",
+  "obj_ch4_DCA02_slash_Step_0_gml_505_0": "\\E3* Deci^1, hei^1, ă^1, ~1 e împreună!/",
+  "obj_ch4_DCA02_slash_Step_0_gml_506_0": "\\E2* Să^1, ă^1, pozăm?/",
+  "obj_ch4_DCA02_slash_Step_0_gml_508_0": "\\EQ* Da^1! Ăm^1, sigur!/%",
+  "obj_ch4_DCA02_slash_Step_0_gml_550_0": "\\EQ* În fine^1, haideți să mergem.../%",
   "obj_ch4_DCA02_slash_Step_0_gml_571_0": "\\E0* .../%",
   "obj_ch4_DCA04_slash_Step_0_gml_81_0": "\\E7* Hey!/%",
   "obj_ch4_DCA04_slash_Step_0_gml_115_0": "\\E2* Hey^1, that's us^1, right?/",
@@ -14695,6 +14695,7 @@
   "UNUSED_slash_UNUSED_gml_16_0": "When I hear that noise, I feel like someone's listening.",
   "UNUSED_slash_UNUSED_gml_17_0": "Anyone, if you're there... thank you."
 }
+
 
 
 
