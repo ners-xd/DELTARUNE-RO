@@ -352,7 +352,7 @@
   "obj_b1power_slash_Step_0_gml_367_0": "I... I'm drowning!!",
   "obj_b1power_slash_Step_0_gml_368_0": "It... It's quicksand!",
   "obj_b1power_slash_Step_0_gml_379_0": "Pluș Ralsei! Umple-l cu lichid, aruncă-l de pereți!",
-  "obj_b1power_slash_Step_0_gml_380_0": "I hope the class was paying attention to the physics of quicksand!",
+  "obj_b1power_slash_Step_0_gml_380_0": "Sper c-ați fost atenți la lecția despre nisipul mișcător!",
   "obj_b1power_slash_Step_0_gml_387_0": "Nu-mi mai face reclamă! Mor!",
   "obj_b1power_slash_Step_0_gml_388_0": "Won't someone please help me?",
   "obj_b1power_slash_Step_0_gml_461_0": "Hei băiete, hai să revenim la oile noastre!",
@@ -1124,7 +1124,7 @@
   "obj_board_event_b2swap_slash_Step_0_gml_135_0": " ? ",
   "obj_board_event_b2swap_slash_Step_0_gml_165_0": "Alright, this puzzle should be easy.",
   "obj_board_event_bigdoor_slash_Step_0_gml_34_0": "IT'S LOCKED./%",
-  "obj_board_event_bigdoor_slash_Step_0_gml_40_0": "IT'S STILL LOCKED./%",
+  "obj_board_event_bigdoor_slash_Step_0_gml_40_0": "ÎNCĂ E ÎNCHISĂ./%",
   "obj_board_event_bigdoor_slash_Step_0_gml_94_0": "ONLY THE \\cYMOONCLOUD STONE\\cW REMAINS./%",
   "obj_board_event_intro1_slash_Step_0_gml_29_0": "Ămm, pot termina de citit MANUALUL?",
   "obj_board_event_intro1_slash_Step_0_gml_35_0": "Nu! Aventura te așteaptă...",
@@ -1704,7 +1704,7 @@
   "obj_ch3_GSA02_slash_Step_0_gml_178_0": "* CONCURENȚI!!!/%",
   "obj_ch3_GSA02_slash_Step_0_gml_227_0": "* \\O1 voastre, vă rog!!^1!/%",
   "obj_ch3_GSA02_slash_Step_0_gml_294_0": "* Perfect^1! Acum^1, pentru introduceri!!!/%",
-  "obj_ch3_GSA02_slash_Step_0_gml_301_0": "* Întâi^1, prințul întunecricului și câștigătorul concursului pentru cea mai pufoasă persoană!/%",
+  "obj_ch3_GSA02_slash_Step_0_gml_301_0": "* Întâi^1, prințul întunecatului și câștigătorul concursului pt cea mai pufoasă persoană!/%",
   "obj_ch3_GSA02_slash_Step_0_gml_312_0": "* RAL-sei!!!/%",
   "obj_ch3_GSA02_slash_Step_0_gml_378_0": "* Apoi^1, prietena lui Kris^1, nebuna^1, și CUM ai distrus acei pantaloni?/%",
   "obj_ch3_GSA02_slash_Step_0_gml_387_0": "* SUSIE!!!/%",
@@ -5017,7 +5017,7 @@
   "obj_quizsequence_slash_Step_0_gml_239_0": "No!! You're joking!! I...#I invested everything in puppets!!#Everything I had!",
   "obj_quizsequence_slash_Step_0_gml_243_0": "... Alright. Ahem. It's fine.#Let's just keep going.#We're, having so much fun!",
   "obj_quizsequence_slash_Step_0_gml_364_0": "No it's not.",
-  "obj_quizsequence_slash_Step_0_gml_366_0": "Majority rules!#Sorry, Susie,#your answer is wrong!",
+  "obj_quizsequence_slash_Step_0_gml_366_0": "Majoritatea conduce!#Scuze, Susie,#răspunsul e greșit!",
   "obj_quizsequence_slash_Step_0_gml_396_0": "Lancer",
   "obj_quizsequence_slash_Step_0_gml_397_0": "Dancer",
   "obj_quizsequence_slash_Step_0_gml_398_0": "Prancer",
@@ -5026,7 +5026,7 @@
   "obj_quizsequence_slash_Step_0_gml_475_0": "Oops.",
   "obj_quizsequence_slash_Step_0_gml_481_0": "Why the hell didn't you trust me!?",
   "obj_quizsequence_slash_Step_0_gml_482_0": "Why the hell didn't you guys trust me!?",
-  "obj_quizsequence_slash_Step_0_gml_502_0": "Așa e, Kris!#Cine nu poate#plăcinta mamei tale!",
+  "obj_quizsequence_slash_Step_0_gml_502_0": "Așa e, Kris!#Cui nu-i place#plăcinta mamei tale!?",
   "obj_quizsequence_slash_Step_0_gml_503_0": "Nimic nu e#mai bun decât să#mănânci cu#familia...",
   "obj_quizsequence_slash_Step_0_gml_504_0": " În atmosfera caldă și plăcută#a emisiunilor tale preferate#de sărbători!",
   "obj_quizsequence_slash_Step_0_gml_505_0": "Chiar aici la TIMPUL EMISIUNII!!!",
@@ -5051,7 +5051,7 @@
   "obj_quizsequence_slash_Step_0_gml_577_0": "Care-i, probabil,#un nou tip de#jenă, dar...",
   "obj_quizsequence_slash_Step_0_gml_578_0": "..În fine, să#vină rezultatele!!",
   "obj_quizsequence_slash_Step_0_gml_587_0": "Kris!? Don't#you remember!?",
-  "obj_quizsequence_slash_Step_0_gml_600_0": "TV-THIRTY! Uh, sure!#A bit off, but we'll#go with it.",
+  "obj_quizsequence_slash_Step_0_gml_600_0": "TV-TASTIC! Ă, sigur!#Ați cam greșit, dar tre-#cem peste.",
   "obj_quizsequence_slash_Step_0_gml_603_0": "Kris!! Haha,#știam că-ți pasă!!",
   "obj_quizsequence_slash_Step_0_gml_605_0": "THAT'S EXACTLY RIGHT#FOLKS!!! Way to start#this quiz with a BANG!",
   "obj_quizsequence_slash_Step_0_gml_607_0": "Haha, wow! Haha...#uhh, wow!",
@@ -13002,6 +13002,7 @@
   "UNUSED_slash_UNUSED_gml_11_0": "... o fi oare ăsta coșmarul?",
   "UNUSED_slash_UNUSED_gml_12_0": "... sau au fost toate celelalte lucruri vise?"
 }
+
 
 
 
