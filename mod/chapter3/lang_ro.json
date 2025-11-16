@@ -1704,7 +1704,7 @@
   "obj_ch3_GSA02_slash_Step_0_gml_178_0": "* CONCURENȚI!!!/%",
   "obj_ch3_GSA02_slash_Step_0_gml_227_0": "* \\O1 voastre, vă rog!!^1!/%",
   "obj_ch3_GSA02_slash_Step_0_gml_294_0": "* Perfect^1! Acum^1, pentru introduceri!!!/%",
-  "obj_ch3_GSA02_slash_Step_0_gml_301_0": "* Întâi^1, prințul întunecatului și câștigătorul concursului pentru cea mai pufoasă persoană!/%",
+  "obj_ch3_GSA02_slash_Step_0_gml_301_0": "* Întâi^1, prințul întunecricului și câștigătorul concursului pentru cea mai pufoasă persoană!/%",
   "obj_ch3_GSA02_slash_Step_0_gml_312_0": "* RAL-sei!!!/%",
   "obj_ch3_GSA02_slash_Step_0_gml_378_0": "* Apoi^1, prietena lui Kris^1, nebuna^1, și CUM ai distrus acei pantaloni?/%",
   "obj_ch3_GSA02_slash_Step_0_gml_387_0": "* SUSIE!!!/%",
@@ -3850,10 +3850,10 @@
   "obj_legend_slash_Draw_0_gml_459_0": "Stă sus în centrul&regatului.",
   "obj_legend_slash_Draw_0_gml_466_0": "Recent, o altă fântână&a apărut la orizont...",
   "obj_legend_slash_Draw_0_gml_473_0": "Și cu ea^1, balanța LUMINII&și ÎNTUNERICULUI începe să se schimbe...",
-  "obj_minigame_quit_ui_slash_Draw_0_gml_18_0": "Hold ~1 : Quit",
-  "obj_minigame_quit_ui_slash_Draw_0_gml_20_0": "~1 : Quit",
-  "obj_moneydisplay_slash_Draw_0_gml_22_0": "HELD SPACE: ",
-  "obj_moneydisplay_slash_Draw_0_gml_23_0": "STORAGE SPACE: ",
+  "obj_minigame_quit_ui_slash_Draw_0_gml_18_0": "Ține ~1 : Ieșire",
+  "obj_minigame_quit_ui_slash_Draw_0_gml_20_0": "~1 : Ieșire",
+  "obj_moneydisplay_slash_Draw_0_gml_22_0": "SPAȚIU OCUPAT: ",
+  "obj_moneydisplay_slash_Draw_0_gml_23_0": "SPAȚIU TOTAL: ",
   "obj_npc_cafe_slash_Other_10_gml_27_0": "* Sure is great to be here with my best friend Hathy./%",
   "obj_npc_cafe_slash_Other_10_gml_32_0": "* (Hathy seems fine.)/%",
   "obj_npc_cafe_slash_Other_10_gml_38_0": "* Sigh..^1. does this guy have to one-up me on everything!?/%",
@@ -4720,7 +4720,7 @@
   "obj_npc_room_slash_Other_10_gml_2115_0": "* Now they're up to their necks in contracts^1, doing whatever he says./%",
   "obj_npc_room_slash_Other_10_gml_2119_0": "* Me? I signed with a fake name. \"Poppins\". He'll never figure it out./%",
   "obj_npc_room_slash_Other_10_gml_2131_0": "* Da^1, performan'a va fi evaluată. \"Rangul-S^1,\" \"Rangul-A\"^1, chestii de genu'.../",
-  "obj_npc_room_slash_Other_10_gml_2132_0": "* N-ai de ce să-ți fie ruține dacă ai o notă mică^1, doar distrează-te./%",
+  "obj_npc_room_slash_Other_10_gml_2132_0": "* N-ai de ce să-ți fie rușine dacă ai o notă mică^1, doar distrează-te./%",
   "obj_npc_room_slash_Other_10_gml_2136_0": "* Poate există o cameră specială pentru câștigătorii cu \"Rang-S\".../%",
   "obj_npc_room_slash_Other_10_gml_2143_0": "\\E6* Deci^1, aveți idei cum aș putea fi adjunctul Tepului TV?/%",
   "obj_npc_room_slash_Other_10_gml_2151_0": "* I will be the \\O0\n                  walker.../%",
@@ -13002,6 +13002,7 @@
   "UNUSED_slash_UNUSED_gml_11_0": "... o fi oare ăsta coșmarul?",
   "UNUSED_slash_UNUSED_gml_12_0": "... sau au fost toate celelalte lucruri vise?"
 }
+
 
 
 
