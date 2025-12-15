@@ -1259,7 +1259,7 @@
   "obj_headhathy_slash_Step_0_gml_194_0": "* Doamne^1, Kris!!^1! Nu pot!^1! Flirtează tu!!/%",
   "obj_headhathy_slash_Step_0_gml_200_0": "* Ai flirtat cu inamicii^1. A mers^1! (Susie n-ajutat.)/%",
   "obj_headhathy_slash_Step_0_gml_241_0": "* Deci^1, uh.../",
-  "obj_headhathy_slash_Step_0_gml_242_0": "* Vi pe aici..^1. des?/%",
+  "obj_headhathy_slash_Step_0_gml_242_0": "* Vii pe aici..^1. des?/%",
   "obj_headhathy_slash_Step_0_gml_251_0": "* (Head Hathy s-a simțit jenată și a plecat...)/",
   "obj_headhathy_slash_Step_0_gml_253_0": "* HEI^1, VINO ÎNAPOI ȘI LASĂ-MĂ SĂ FLIRTEZ CU TINE!!!/%",
   "obj_headhathy_slash_Step_0_gml_256_0": "* (Head Hathy s-a simțit jenată și a plecat....)/",
@@ -2388,7 +2388,7 @@
   "obj_npc_room_slash_Other_10_gml_236_0": "* (E copac cu bombane.^1)&* (Toate bomboanele coapte au fost culese.)/",
   "obj_npc_room_slash_Other_10_gml_238_0": "* Hai să nu mai luăm^1, Kris^1.&* Bomboanele necoapte sunt acre./",
   "obj_npc_room_slash_Other_10_gml_240_0": "* Ce^1? Acră^1, dulce^1, cărnoasă^1, amară..^1. dacă sunt bomboane^1, îi bun!/",
-  "obj_npc_room_slash_Other_10_gml_242_0": "* Păi^1, mi-se pare corect.../",
+  "obj_npc_room_slash_Other_10_gml_242_0": "* Păi^1, mi se pare corect.../",
   "obj_npc_room_slash_Other_10_gml_243_0": "\\E9* ... Stai^1, \"cărnos?\"/%",
   "obj_npc_room_slash_Other_10_gml_248_0": "* Ce tip de bomboană e cărnoasă?/",
   "obj_npc_room_slash_Other_10_gml_250_0": "* Știi^1.&* Cum îi zice^1.&* Uhhh^1, pastrama./",
@@ -3471,7 +3471,7 @@
   "obj_rurus_checker_event_slash_Step_0_gml_181_0": "* Oh nu!!!/",
   "obj_rurus_checker_event_slash_Step_0_gml_182_0": "* Arată de parcă-l doare!^3!\\f1 ^3 /%",
   "obj_rurus_checker_event_slash_Step_0_gml_194_0": "* Da..^1. Coroana de control e dureroasă.../",
-  "obj_rurus_checker_event_slash_Step_0_gml_195_0": "* Dar^1, mi-s sigur că această creatură se va simți ușurată.../",
+  "obj_rurus_checker_event_slash_Step_0_gml_195_0": "* Dar^1, suntu sigur că această creatură se va simți ușurată.../",
   "obj_rurus_checker_event_slash_Step_0_gml_196_0": "* Când vede câtă suferință veți avea!!!/%",
   "obj_rurus_checker_event_slash_Step_0_gml_260_0": "\\E6* .../",
   "obj_rurus_checker_event_slash_Step_0_gml_261_0": "\\E1* .../%",
@@ -3486,7 +3486,7 @@
   "obj_rurus_event_slash_Step_0_gml_58_0": "Dece, viermii au decis să&iasă afară și să să joace.../%",
   "obj_rurus_event_slash_Step_0_gml_71_0": "* Cine-i acolo!?/%",
   "obj_rurus_event_slash_Step_0_gml_78_0": "Geh ha ha ha ha!&Voi, copii IDIOȚI!/%",
-  "obj_rurus_event_slash_Step_0_gml_121_0": "\\E0* Io mi-s Rouxls Kaard^1, protivnicul vostru cel mai mare!/",
+  "obj_rurus_event_slash_Step_0_gml_121_0": "\\E0* Io sânt Rouxls Kaard^1, protivnicul vostru cel mai mare!/",
   "obj_rurus_event_slash_Step_0_gml_122_0": "\\E4* Poate că ați trecut cu ghiarele preste toate celelalte ghicitori.../",
   "obj_rurus_event_slash_Step_0_gml_123_0": "\\E2* Dar ACELEA au fost create de cei mai SFRIJIȚI!/",
   "obj_rurus_event_slash_Step_0_gml_124_0": "\\E3* Acum^1, pregătiți-vă^1.&* Pentru CEA MAI STRAȘNICĂ GHICITOARE!/%",
@@ -3504,7 +3504,7 @@
   "obj_rurus_event_slash_Step_0_gml_387_0": "\\E5* Ahhh.../",
   "obj_rurus_event_slash_Step_0_gml_388_0": "\\E5* Ahh... Ha...^1!&* Ha ha ha^1!&* Viermi naivi!/",
   "obj_rurus_event_slash_Step_0_gml_389_0": "\\E5* Asta n-a fost cu adevărat ghicitoarea mia ultimă!/",
-  "obj_rurus_event_slash_Step_0_gml_390_0": "\\E4* Am una mult mai buă chiar..^1. aici!/",
+  "obj_rurus_event_slash_Step_0_gml_390_0": "\\E4* Am una mult mai bună chiar..^1. aici!/",
   "obj_rurus_event_slash_Step_0_gml_392_0": "* Putem..^1.&* Putem să o vedem?/%",
   "obj_rurus_event_slash_Step_0_gml_404_0": "* Nu/%",
   "obj_savemenu_slash_Create_0_gml_7_0": "Kris",
@@ -3793,7 +3793,7 @@
   "obj_shop2_slash_Draw_0_gml_326_0": "Nu",
   "obj_shop2_slash_Draw_0_gml_353_0": "\\E5* Ne vedem în temniță^1, Viermilor!/%",
   "obj_shop2_slash_Draw_0_gml_354_0": "\\E5* Să mai veniți^1, Viermilor!/%",
-  "obj_shop2_slash_Draw_0_gml_358_0": "\\E0* Io mi-s Ducele Ghicitorilor^1, Rouxls Kaard./",
+  "obj_shop2_slash_Draw_0_gml_358_0": "\\E0* Io sânt Ducele Ghicitorilor^1, Rouxls Kaard./",
   "obj_shop2_slash_Draw_0_gml_359_0": "\\E4* Pasiunile mele includ scriere frumoasă, avocatură, gândacii, cuști.../",
   "obj_shop2_slash_Draw_0_gml_360_0": "\\E1* ... și plimbări lungi în temniță./",
   "obj_shop2_slash_Draw_0_gml_361_0": "\\E5* Ești unul din admiratorii mei^1, vierme?/%",
@@ -3820,7 +3820,7 @@
   "obj_shop2_slash_Draw_0_gml_405_0": "\\E6* Relația noastra este NEMICA^1, cărăbușule micuț^1! Te liniștesc de dragul Tatului tău!/",
   "obj_shop2_slash_Draw_0_gml_406_0": "\\E6* Nu vreau să aud MP3-urile tăle^1! Aș alege să auscult cântecul dulce al Răposării!/",
   "obj_shop2_slash_Draw_0_gml_407_0": "\\E3* .../",
-  "obj_shop2_slash_Draw_0_gml_408_0": "\\E2* Cum mai este^1, oricum?/%",
+  "obj_shop2_slash_Draw_0_gml_408_0": "\\E2* Cum mai este a ta viață?/%",
   "obj_shop2_slash_Draw_0_gml_413_0": "\\E3* Cred că formularea mea a fost puțin dură înainte... Copilul regelui este drăguț!/",
   "obj_shop2_slash_Draw_0_gml_414_0": "\\E6* Un drag ciudat și iritant!/",
   "obj_shop2_slash_Draw_0_gml_415_0": "\\E3* Când tatăl lui nu gătește^1, fiul său țipă ca un boboc^1, până când îi dau viermi!/",
@@ -6243,6 +6243,7 @@
   "UNUSED_slash_UNUSED_gml_10_0": "Spune ceva... te rog..."
 
 }
+
 
 
 
