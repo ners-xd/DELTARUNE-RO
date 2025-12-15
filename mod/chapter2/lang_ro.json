@@ -2868,7 +2868,7 @@
   "obj_ch2_scene_sideb_noelleroom_slash_Step_0_gml_122_0": "\\E0* Kris.../",
   "obj_ch2_scene_sideb_noelleroom_slash_Step_0_gml_123_0": "\\E2* Nu te întrebi..^1. ce fac acolo?/%",
   "obj_ch2_scene_sideb_noelleroom_slash_Step_0_gml_133_0": "\\EQ* Umm^1, am spus^1, nu te întrebi.../",
-  "obj_ch2_scene_sideb_noelleroom_slash_Step_0_gml_134_0": "\\EI* ..^1. cum mai sunt Noelle and Susie?/%",
+  "obj_ch2_scene_sideb_noelleroom_slash_Step_0_gml_134_0": "\\EI* ..^1. cum mai sunt Noelle și Susie?/%",
   "obj_ch2_scene_sideb_noelleroom_slash_Step_0_gml_144_0": "\\EQ* A-ai dreptate^1, Kris^1, au trecut doar 30 de secunde.../",
   "obj_ch2_scene_sideb_noelleroom_slash_Step_0_gml_145_0": "\\EQ* (O să aștept un minut mai întâi...)/%",
   "obj_ch2_scene_sideb_noelleroom_slash_Step_0_gml_194_0": "\\E7* Bine, hai să mergem!/%",
@@ -2885,7 +2885,7 @@
   "obj_ch2_scene_sideb_noelleroom_slash_Step_0_gml_219_0": "\\E2* Acum se simte mai bine./",
   "obj_ch2_scene_sideb_noelleroom_slash_Step_0_gml_221_0": "\\EK* ..^1. nimic altceva?/",
   "obj_ch2_scene_sideb_noelleroom_slash_Step_0_gml_223_0": "\\E7* Nu și hai să mergem./%",
-  "obj_ch2_scene_sideb_noelleroom_slash_Step_0_gml_247_0": "HEY!",
+  "obj_ch2_scene_sideb_noelleroom_slash_Step_0_gml_247_0": "HEI!",
   "obj_ch2_scene_sideb_noelleroom_slash_Step_0_gml_248_0": "\\E2* Psst..^1. O să-ți spun mai târziu^1, Kris. \\f0 /",
   "obj_ch2_scene_sideb_noelleroom_slash_Step_0_gml_251_0_b": "\\EQ* (Oricum^1, cât timp Susie e fericită..^1. nu-i așa?)/%",
   "obj_ch2_sceneex1_slash_Step_0_gml_54_0": "\\E5* Kris...? Vrei să rămânem aici...?/",
@@ -5701,7 +5701,7 @@
   "obj_npc_sign_slash_Other_10_gml_953_0": "\\E2* Hei^1, Ralsei^1, putem lua asta s-o am în camera mea?/",
   "obj_npc_sign_slash_Other_10_gml_955_0": "\\EK* Huh? Umm..^1. a-ar fi furt.../",
   "obj_npc_sign_slash_Other_10_gml_957_0": "* (Ai furat statuia în formă de Susie...)/%",
-  "obj_npc_sign_slash_Other_10_gml_970_0": "* (De la căutarea 'is ice e real cryptid')/",
+  "obj_npc_sign_slash_Other_10_gml_970_0": "* (De la căutarea 'e ice e un balaur real')/",
   "obj_npc_sign_slash_Other_10_gml_971_0": "* (E o încrucișare între ICE-E și altceva...)/",
   "obj_npc_sign_slash_Other_10_gml_973_0": "\\E2* Hei Kris^1, ia asta pentru camera ta./",
   "obj_npc_sign_slash_Other_10_gml_975_0": "\\EK* Umm^1, asta ar fi furt.../",
@@ -12662,6 +12662,7 @@
   "UNUSED_slash_UNUSED_gml_8_0": "Ceva ca... zgâriatul?"
 
 }
+
 
 
 
