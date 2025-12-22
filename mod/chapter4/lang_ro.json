@@ -5066,22 +5066,22 @@
   "obj_jackenstein_enemy_slash_Step_0_gml_157_0": "STOP USING THAT!!!&TEARRIBLE!!!&GO TO [DARK]!!!/%",
   "obj_jackenstein_enemy_slash_Step_0_gml_307_0": "* Ești în ZONA ÎNTUNECOASĂ.",
   "obj_jackenstein_enemy_slash_Step_0_gml_308_0": "* Totul pare în regulă.",
-  "obj_jackenstein_enemy_slash_Step_0_gml_309_0": "* Too dark to see near the walls.",
-  "obj_jackenstein_enemy_slash_Step_0_gml_310_0": "* Too dark to see near the walls.&* There's a pit here!",
+  "obj_jackenstein_enemy_slash_Step_0_gml_309_0": "* Prea întuneric ca să vezi pereții.",
+  "obj_jackenstein_enemy_slash_Step_0_gml_310_0": "* Prea întuneric ca să vezi pereții.&* E o gaură aici!",
   "obj_jackenstein_enemy_slash_Step_0_gml_313_0": "K... Kris?",
-  "obj_jackenstein_enemy_slash_Step_0_gml_316_0": "* Too dark to see near the walls.&* There's something fluffy in here!~1",
-  "obj_jackenstein_enemy_slash_Step_0_gml_321_0": "That's ME, dumbass!",
-  "obj_jackenstein_enemy_slash_Step_0_gml_323_0": "* Too dark to see near the walls.&* There's something very Susie-like in here!~1",
-  "obj_jackenstein_enemy_slash_Step_0_gml_325_0": "* Too dark to see near the walls.&* There's a texture of a dog playing maracas in here!",
-  "obj_jackenstein_enemy_slash_Step_0_gml_326_0": "* Too dark to see near the walls.&* There's something miniboss-shaped in here!",
+  "obj_jackenstein_enemy_slash_Step_0_gml_316_0": "* Prea întuneric ca să vezi pereții.&* E ceva pufos aici!~1",
+  "obj_jackenstein_enemy_slash_Step_0_gml_321_0": "EU sunt, dobitocule!",
+  "obj_jackenstein_enemy_slash_Step_0_gml_323_0": "* Prea întuneric ca să vezi pereții.&* E ceva gen Susie aici!~1",
+  "obj_jackenstein_enemy_slash_Step_0_gml_325_0": "* Prea întuneric ca să vezi pereții.&* Pare că un câine cântă la maracas aici!",
+  "obj_jackenstein_enemy_slash_Step_0_gml_326_0": "* Prea întuneric ca să vezi pereții.&* E ceva cu forma unui miniboss!",
   "obj_jackenstein_enemy_slash_Step_0_gml_329_0": "* You can imagine Berdly in your head warning you about Grues.&* Smells like rotting fruit.",
-  "obj_jackenstein_enemy_slash_Step_0_gml_340_0": "* The atmosphere feels tense... (You can use \\cYUNLEASH\\c0!)",
+  "obj_jackenstein_enemy_slash_Step_0_gml_340_0": "* Atmosfera e tensionată... (Poți folosi \\cYDEZLĂNȚUIRE\\c0!)",
   "obj_jackenstein_enemy_slash_Step_0_gml_351_0": "H-HEY!/%",
   "obj_jackenstein_enemy_slash_Step_0_gml_370_0": "* JACKENSTEIN - An unsightly beast that lives in total darkness./",
   "obj_jackenstein_enemy_slash_Step_0_gml_371_0": "* Gather \\cYTREASURE\\cW to gain TP, and use \"UNLEASH\" to light him up!/%",
   "obj_jackenstein_enemy_slash_Step_0_gml_377_0": "* You CHECKed Jackenstein...&* You remember that \\cYDEFEND\\c0ing gives you TP!/",
   "obj_jackenstein_enemy_slash_Step_0_gml_378_0": "* You remember Susie and Ralsei might have their own ACTs as well...!/%",
-  "obj_jackenstein_enemy_slash_Step_0_gml_379_0": "* Kris's SOUL emitted a brilliant light!/%",
+  "obj_jackenstein_enemy_slash_Step_0_gml_379_0": "* SUFLETUL lui Kris a emis o lumină fantastică!/%",
   "obj_jackenstein_enemy_slash_Step_0_gml_405_0": "* Your heart pumped nervously!&* SPEED increased for 1 turn!&* Everyone's DEFENSE down!/%",
   "obj_jackenstein_enemy_slash_Step_0_gml_406_0": "* Scared! SPEED up, DEF down!/%",
   "obj_jackenstein_enemy_slash_Step_0_gml_418_0": "* Susie sniffs out treasure! It's easier to pick stuff up!/%",
@@ -14695,6 +14695,7 @@
   "UNUSED_slash_UNUSED_gml_16_0": "When I hear that noise, I feel like someone's listening.",
   "UNUSED_slash_UNUSED_gml_17_0": "Anyone, if you're there... thank you."
 }
+
 
 
 
