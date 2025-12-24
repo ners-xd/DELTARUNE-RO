@@ -7020,7 +7020,7 @@
   "obj_shutta_enemy_slash_Step_0_gml_205_0": "* Fă o poză cu o explozie! Fă-o la timp!/%",
   "obj_shutta_enemy_slash_Step_0_gml_270_0": "* Susie a clipit în timpul pozei!/%",
   "obj_shutta_enemy_slash_Step_0_gml_280_0": "* Susie a strănutat în timpul pozei!",
-  "obj_shutta_enemy_slash_Step_0_gml_281_0": "* Susie a vorbit aiurea în timpul pozei!",
+  "obj_shutta_enemy_slash_Step_0_gml_281_0": "* Susie e neclară în poză!",
   "obj_shutta_enemy_slash_Step_0_gml_282_0": "* Susie a clipit în timpul pozei!",
   "obj_shutta_enemy_slash_Step_0_gml_314_0": "* Pozează mai multe gloanțe de-o dată!",
   "obj_shutta_enemy_slash_Step_0_gml_349_0": "* Fă-i o poză lui Shuttah!/%",
@@ -13002,6 +13002,7 @@
   "UNUSED_slash_UNUSED_gml_11_0": "... o fi oare ăsta coșmarul?",
   "UNUSED_slash_UNUSED_gml_12_0": "... sau au fost toate celelalte lucruri vise?"
 }
+
 
 
 
