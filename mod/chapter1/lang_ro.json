@@ -2330,7 +2330,7 @@
   "obj_npc_room_slash_Other_10_gml_11_0": "* Tăietura se împletește ca și cum ai plânge./%",
   "obj_npc_room_slash_Other_10_gml_15_0": "* E o căruță roșie cu o colivie de păsări ruginită în ea./",
   "obj_npc_room_slash_Other_10_gml_16_0": "* Se pare că a avut câteva accidentări./%",
-  "obj_npc_room_slash_Other_10_gml_21_0": "* (E Chairiel^1, scaunul iubit din sufragerie.)/%",
+  "obj_npc_room_slash_Other_10_gml_21_0": "* (E Scariel^1, scaunul iubit din sufragerie.)/%",
   "obj_npc_room_slash_Other_10_gml_41_0": "* (E doar un manechin.)/%",
   "obj_npc_room_slash_Other_10_gml_48_0": "* S-stop^1!&* Încă mă recuperez de unde m-ai ranit./",
   "obj_npc_room_slash_Other_10_gml_49_0": "* Plus^1, doar ce am mâncat^1, deci o să am crampe dacă mă bat cu tine repede./%",
@@ -6243,6 +6243,7 @@
   "UNUSED_slash_UNUSED_gml_10_0": "Spune ceva... te rog..."
 
 }
+
 
 
 
