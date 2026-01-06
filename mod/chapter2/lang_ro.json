@@ -4799,7 +4799,7 @@
   "obj_npc_room_slash_Other_10_gml_20_0": "* Este o căruță roșie cu o cușcă ruginită în ea./",
   "obj_npc_room_slash_Other_10_gml_21_0": "* Se pare că a văzut destul de multe accidente./%",
   "obj_npc_room_slash_Other_10_gml_27_0": "* E o colivie de păsări. Când ușa-i închisă^1, nu mai există scăpare./%",
-  "obj_npc_room_slash_Other_10_gml_32_0": "* (E Chairiel^1, iubitul fotoliu din sufragerie.)/%",
+  "obj_npc_room_slash_Other_10_gml_32_0": "* (E Scariel^1, iubitul fotoliu din sufragerie.)/%",
   "obj_npc_room_slash_Other_10_gml_52_0": "* (E doar un manechin.)/%",
   "obj_npc_room_slash_Other_10_gml_66_0": "* (Nu îl mai poți îmbrățișa.)/%",
   "obj_npc_room_slash_Other_10_gml_79_0": "* (E un manechin îmbrăcat cu prost gust.)/%",
@@ -12662,6 +12662,7 @@
   "UNUSED_slash_UNUSED_gml_8_0": "Ceva ca... zgâriatul?"
 
 }
+
 
 
 
