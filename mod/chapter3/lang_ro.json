@@ -4217,7 +4217,7 @@
   "obj_npc_room_slash_Other_10_gml_20_0": "* It's a red wagon with a rusty birdcage in it./",
   "obj_npc_room_slash_Other_10_gml_21_0": "* Looks like it's seen quite a few crashes./%",
   "obj_npc_room_slash_Other_10_gml_27_0": "* It's a birdcage. When the door's closed^1, there's no escape./%",
-  "obj_npc_room_slash_Other_10_gml_32_0": "* (It's Chairiel^1, the beloved living room chair.)/%",
+  "obj_npc_room_slash_Other_10_gml_32_0": "* (E Scariel^1, iubitul fotoliu din sufragerie.)/%",
   "obj_npc_room_slash_Other_10_gml_52_0": "* (It's just a dummy.)/%",
   "obj_npc_room_slash_Other_10_gml_79_0": "* (It's a mannequin dressed in poor taste.)/%",
   "obj_npc_room_slash_Other_10_gml_93_0": "* I'm a worm. I don't understand taxes and values./%",
@@ -13002,6 +13002,7 @@
   "UNUSED_slash_UNUSED_gml_11_0": "... o fi oare ăsta coșmarul?",
   "UNUSED_slash_UNUSED_gml_12_0": "... sau au fost toate celelalte lucruri vise?"
 }
+
 
 
 
