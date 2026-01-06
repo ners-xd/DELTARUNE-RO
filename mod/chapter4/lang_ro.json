@@ -5823,7 +5823,7 @@
   "obj_npc_room_slash_Other_10_gml_20_0": "* It's a red wagon with a rusty birdcage in it./",
   "obj_npc_room_slash_Other_10_gml_21_0": "* Looks like it's seen quite a few crashes./%",
   "obj_npc_room_slash_Other_10_gml_27_0": "* It's a birdcage. When the door's closed^1, there's no escape./%",
-  "obj_npc_room_slash_Other_10_gml_32_0": "* (E Chairiel^1, iubitul fotoliu din sufragerie.)/%",
+  "obj_npc_room_slash_Other_10_gml_32_0": "* (E Scariel^1, iubitul fotoliu din sufragerie.)/%",
   "obj_npc_room_slash_Other_10_gml_39_0": "\\EK* Ciudat^1, nu știam că ai o pasăre. Sau^1, uh..^1. ceva./%",
   "obj_npc_room_slash_Other_10_gml_43_0": "\\EC* ..^1. nu-mi place cum ai dat din cap la \"sau ceva.\"/%",
   "obj_npc_room_slash_Other_10_gml_52_0": "* (It's just a dummy.)/%",
@@ -14695,6 +14695,7 @@
   "UNUSED_slash_UNUSED_gml_16_0": "When I hear that noise, I feel like someone's listening.",
   "UNUSED_slash_UNUSED_gml_17_0": "Anyone, if you're there... thank you."
 }
+
 
 
 
