@@ -284,7 +284,7 @@
   "obj_castlefront_event_slash_Step_0_gml_58_0": "* Hei^1, ce faci...!?/%",
   "obj_castlefront_event_slash_Step_0_gml_106_0": "* I-am înconjurat!/%",
   "obj_castlefront_event_slash_Step_0_gml_163_0": "* St..^1. Stai...!/%",
-  "obj_checker_animtest_slash_Step_0_gml_42_0": "Băieți",
+  "obj_checker_animtest_slash_Step_0_gml_42_0": "Băieții",
   "obj_checker_animtest_slash_Step_0_gml_43_0": "(nume pe care n-am voie să-l zic).",
   "obj_checker_animtest_slash_Step_0_gml_44_0": "Clubul fanilor lui Lancer.",
   "obj_checker_animtest_slash_Step_0_gml_45_0": "Ceata Prietenoasă Și Distractivă.",
@@ -437,7 +437,7 @@
   "obj_classscene_slash_Step_0_gml_295_0": "\\E4* E a treia oară când dispare^1, și.../",
   "obj_classscene_slash_Step_0_gml_296_0": "\\E9* Și știți că nu pot să încep ora fără cretă!/%",
   "obj_classscene_slash_Step_0_gml_298_0": "\\FN\\TN\\E1* Ummm^1, ar putea fi o cutie în dulapul de provizii.../",
-  "obj_classscene_slash_Step_0_gml_299_0": "\\E0* Vrei să - %",
+  "obj_classscene_slash_Step_0_gml_299_0": "\\E0* Vreți să - %",
   "obj_classscene_slash_Step_0_gml_300_0": "\\Ta\\Fa\\E6* B-bună idee^1, Noelle^1!&* Susie^1, pt că ai venit ultima.../",
   "obj_classscene_slash_Step_0_gml_301_0": "\\E7* Poți să te duci să o iei pt mine...?/",
   "obj_classscene_slash_Step_0_gml_302_0": "\\FS\\TS\\E0* .../",
@@ -2692,7 +2692,7 @@
   "obj_npc_room_slash_Other_10_gml_1212_0": "* Frate^1, mai ții minte când chiuleam de la prima oră ca să venim aici?/",
   "obj_npc_room_slash_Other_10_gml_1213_0": "* TU n-aveai probleme^1, dar era să repet anul din cauza aia.../",
   "obj_npc_room_slash_Other_10_gml_1214_0": "* Clătitele ălea meritau^1, totuși^1! Delincvența e cel mai bun condiment!/%",
-  "obj_npc_room_slash_Other_10_gml_1217_0": "* Bă^1, dacă nu-i aducem lui Gerson resturile noastre^1, pun pariu că rămâneam corigenți.../%",
+  "obj_npc_room_slash_Other_10_gml_1217_0": "* Bă^1, dacă nu-i aducem lui Gerson resturile noastre^1, pun pariu că rămâneam corigent.../%",
   "obj_npc_room_slash_Other_10_gml_1226_0": "* Uitându-mă la corpul meu robust^1, poate te întrebi ce secrete ascund.../",
   "obj_npc_room_slash_Other_10_gml_1227_0": "* Secretul meu e că^1, pun toate clătitele rămase în această pălărie uriașă./%",
   "obj_npc_room_slash_Other_10_gml_1231_0": "* Of^1!&* Ce iubesc CLĂTITELE!/%",
@@ -4135,7 +4135,7 @@
   "obj_thrashafter_follow_slash_Step_0_gml_608_0": "* Uite^1! \\cYForma Scaunului!/",
   "obj_thrashafter_follow_slash_Step_0_gml_610_0": "* ... tot ce ai făcut a fost să-ți pui mâinile pe jos./",
   "obj_thrashafter_follow_slash_Step_0_gml_612_0": "* Hei^1, nu fi atât de gelos./%",
-  "obj_thrashafter_follow_slash_Step_0_gml_723_0": "* Heheh^1, am înțeles./",
+  "obj_thrashafter_follow_slash_Step_0_gml_723_0": "* Heheh^1, am luat-o./",
   "obj_thrashafter_follow_slash_Step_0_gml_725_0": "* Ooo^1, zi-mi ce gust are!/%",
   "obj_thrashafter_follow_slash_Step_0_gml_742_0": "* Ce^1? N-ai mai mâncat până acum?/",
   "obj_thrashafter_follow_slash_Step_0_gml_744_0": "* Oh..^1. adică^1, mereu m-am întrebat cum e.../",
@@ -5695,8 +5695,8 @@
   "scr_text_slash_scr_text_gml_2102_0": "\\E0* Știi, când vine Azzy acasă.../",
   "scr_text_slash_scr_text_gml_2103_0": "\\E8* Nu.^1. Nu poți să-i zici asta^1, dar chiar mi-e dor de el./",
   "scr_text_slash_scr_text_gml_2104_0": "\\E8* Ar fi super să ne plimbăm prin oraș ca pe vremuri.../",
-  "scr_text_slash_scr_text_gml_2105_0": "\\E3* Să mergem la agățat^1, de exemplu.../",
-  "scr_text_slash_scr_text_gml_2106_0": "\\E4* de GAGICI/",
+  "scr_text_slash_scr_text_gml_2105_0": "\\E3* Să mergem să agățăm^1, de exemplu.../",
+  "scr_text_slash_scr_text_gml_2106_0": "\\E4* GAGICI/",
   "scr_text_slash_scr_text_gml_2107_0": "\\E5* Care^1, bineînțeles/",
   "scr_text_slash_scr_text_gml_2108_0": "\\E6* S-ar putea să nu se fi întâmplat niciodată./",
   "scr_text_slash_scr_text_gml_2109_0": "\\E2* D-dar o dată Undyne s-a uitat la mine-n ochi!/",
@@ -6243,6 +6243,7 @@
   "UNUSED_slash_UNUSED_gml_10_0": "Spuneți ceva... vă rog..."
 
 }
+
 
 
 
