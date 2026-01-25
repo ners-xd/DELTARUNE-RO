@@ -2842,7 +2842,7 @@
   "obj_ponman_enemy_slash_Draw_0_gml_6_0": "(Slab)",
   "obj_ponman_enemy_slash_Step_0_gml_64_0": "* Ponman avansează pas cu pas.",
   "obj_ponman_enemy_slash_Step_0_gml_65_0": "* Ponman ascultă cu politețe^1, chiar dacă n-are urechi.",
-  "obj_ponman_enemy_slash_Step_0_gml_66_0": "* Ponman pare hipnotizat de animația ta inactivă.",
+  "obj_ponman_enemy_slash_Step_0_gml_66_0": "* Ponman pare hipnotizat de animația ta de așteptare.",
   "obj_ponman_enemy_slash_Step_0_gml_67_0": "* Ponman privește enigmatic.",
   "obj_ponman_enemy_slash_Step_0_gml_68_0": "* Miroase ca un amanet.",
   "obj_ponman_enemy_slash_Step_0_gml_69_0": "* Ponman nu-și poate ține ochii deschiși.",
@@ -6243,6 +6243,7 @@
   "UNUSED_slash_UNUSED_gml_10_0": "Spuneți ceva... vă rog..."
 
 }
+
 
 
 
