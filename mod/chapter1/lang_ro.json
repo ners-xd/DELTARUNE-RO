@@ -3126,7 +3126,7 @@
   "obj_readable_room1_slash_Other_10_gml_338_0": "* (E un poster cu mai multe figuri geometrice.^1)&* (Cerc, Oval, Pătrat...)/",
   "obj_readable_room1_slash_Other_10_gml_339_0": "* (Hiperdodecaedru...)/%",
   "obj_readable_room1_slash_Other_10_gml_343_0": "* (Cărți pentru copii.^1)&* (Câteva erau ale tale.)/%",
-  "obj_readable_room1_slash_Other_10_gml_347_0": "* (E un desen primitiv al mamei tale.)/%",
+  "obj_readable_room1_slash_Other_10_gml_347_0": "* (E un desen primitiv cu mama ta.)/%",
   "obj_readable_room1_slash_Other_10_gml_354_0": "* (E un fel de sculptură primitivă.)&* (Cine știe ce reprezintă?)/%",
   "obj_readable_room1_slash_Other_10_gml_358_0": "* (Tronul zeilor.)/%",
   "obj_readable_room1_slash_Other_10_gml_366_0": "* (Ușa e încuiată.)/%",
@@ -6243,6 +6243,7 @@
   "UNUSED_slash_UNUSED_gml_10_0": "Spuneți ceva... vă rog..."
 
 }
+
 
 
 
