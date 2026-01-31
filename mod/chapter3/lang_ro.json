@@ -670,7 +670,7 @@
   "obj_b2lancersalsa_slash_Step_0_gml_309_0": "PARE C-AM DAT DE AUR VERDE^1! FĂ O POZĂ!/%",
   "obj_b2loverbridge_slash_Step_0_gml_63_0": "Am REVENIT! Înspre ATLANTIS să mergem!",
   "obj_b2loverbridge_slash_Step_0_gml_79_0": "... why is this RAINBOW so IMPURE!?",
-  "obj_b2loverscliff_slash_Step_0_gml_87_0": "Știti ce-nseamnă asta, copii!!!",
+  "obj_b2loverscliff_slash_Step_0_gml_87_0": "Știți ce-nseamnă asta, copii!!!",
   "obj_b2loverscliff_slash_Step_0_gml_94_0": "Ralsei, pun-te pe inimă. Îți vom găsi o iubită.",
   "obj_b2loverscliff_slash_Step_0_gml_96_0": "Yeah. If we could get 2 Lancers, and make them stand there...",
   "obj_b2loverscliff_slash_Step_0_gml_107_0": "Nevermind, folks!",
@@ -5629,8 +5629,8 @@
   "obj_readable_room1_slash_Other_10_gml_2177_0": "* (It's a bed for three people^1, or one three-headed person.)/%",
   "obj_readable_room1_slash_Other_10_gml_2184_0": "\\EA* Băi^1, Kris..^1. dacă ne-am vedea cu Ralsei.../",
   "obj_readable_room1_slash_Other_10_gml_2185_0": "\\E2* Ar putea să rezolve tot timpul puzzle-uri ca ăstea pentru noi./",
-  "obj_readable_room1_slash_Other_10_gml_2186_0": "\\EK* Ști. Dacă vreodată am găsi unul în Lumea Iluminată./%",
-  "obj_readable_room1_slash_Other_10_gml_2190_0": "\\E6* Hey^1, oare știe Ralsei măcar matematică...?/",
+  "obj_readable_room1_slash_Other_10_gml_2186_0": "\\EK* Știi? Dacă vreodată am găsi unu' în Lumea Iluminată./%",
+  "obj_readable_room1_slash_Other_10_gml_2190_0": "\\E6* Hei^1, oare știe Ralsei măcar matematică...?/",
   "obj_readable_room1_slash_Other_10_gml_2190_0_b": "\\S0* (SHADOW CRYSTAL was added to your Key Items.)~1",
   "obj_readable_room1_slash_Other_10_gml_2191_0": "\\EA* ..^1. cred că ne-ar putea face eseurile.../%",
   "obj_readable_room1_slash_Other_10_gml_2191_0_b": "\\S0* (BLACK SHARD was added to your Weapons.)/%",
@@ -13002,6 +13002,7 @@
   "UNUSED_slash_UNUSED_gml_11_0": "... o fi oare ăsta coșmarul?",
   "UNUSED_slash_UNUSED_gml_12_0": "... sau au fost toate celelalte lucruri vise?"
 }
+
 
 
 
