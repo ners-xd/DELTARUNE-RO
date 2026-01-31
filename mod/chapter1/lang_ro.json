@@ -3295,7 +3295,7 @@
   "obj_readable_room1_slash_Other_10_gml_1041_0": "* (Te-ai uitat în dulap.)/",
   "obj_readable_room1_slash_Other_10_gml_1042_0": "* (... un pian mic și necesar se ascunde înăuntru.)/%",
   "obj_readable_room1_slash_Other_10_gml_1046_0": "* (E o scară clasică a durerii 1-10^1, folosind ICE-E ca model.)/",
-  "obj_readable_room1_slash_Other_10_gml_1047_0": "* (La durerea 0^1, e fericit.^1)&* (La durerea 10^1, e fericit și transpiră.)/%",
+  "obj_readable_room1_slash_Other_10_gml_1047_0": "* (La 0^1, e fericit.^1)&* (La 10^1, e fericit și transpiră.)/%",
   "obj_readable_room1_slash_Other_10_gml_1051_0": "* Vrăjitorii castelului m-au trimis în CAMERA DE VINDECARE.../",
   "obj_readable_room1_slash_Other_10_gml_1052_0": "* Dar SÂNGELE meu fierbe pt o luptă!/%",
   "obj_readable_room1_slash_Other_10_gml_1063_0": "* \"Stăpânul Ciocanului\"/",
@@ -6243,6 +6243,7 @@
   "UNUSED_slash_UNUSED_gml_10_0": "Spuneți ceva... vă rog..."
 
 }
+
 
 
 
