@@ -3358,8 +3358,8 @@
   "obj_readable_room1_slash_Other_10_gml_1275_0": "* (...)/",
   "obj_readable_room1_slash_Other_10_gml_1276_0": "* (Cineva vine la geam.)/%",
   "obj_readable_room1_slash_Other_10_gml_1281_0": "* (Se pare că poliția n-are chef...)/%",
-  "obj_readable_room1_slash_Other_10_gml_1291_0": "* (Aici la ICE-E'S PEZZA, tu ești familia.)/",
-  "obj_readable_room1_slash_Other_10_gml_1292_0": "* (... care îi va plăcea!)/%",
+  "obj_readable_room1_slash_Other_10_gml_1291_0": "* (La PEZZERIA lui ICE'E, faci parte din familie.)/",
+  "obj_readable_room1_slash_Other_10_gml_1292_0": "* (... Și îți va place!)/%",
   "obj_readable_room1_slash_Other_10_gml_1296_0": "* (Intrarea e încuiată.^1)&* (Nu e nimeni înăuntru.)/",
   "obj_readable_room1_slash_Other_10_gml_1297_0": "* (Se pare că toți angajații sunt afară în costume.)/%",
   "obj_readable_room1_slash_Other_10_gml_1301_0": "* (Ice E's P\"E\"ZZA, locul numărul 1 pentru o bucată de PEZZA.)/%",
@@ -6243,6 +6243,7 @@
   "UNUSED_slash_UNUSED_gml_10_0": "Spuneți ceva... vă rog..."
 
 }
+
 
 
 
