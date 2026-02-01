@@ -3646,7 +3646,7 @@
   "obj_shop1_slash_Draw_0_gml_139_0": "Ieși",
   "obj_shop1_slash_Draw_0_gml_148_0": "\\E0Ce vrei&să&cumperi?",
   "obj_shop1_slash_Draw_0_gml_149_0": "\\E2Mersi pt&aia.",
-  "obj_shop1_slash_Draw_0_gml_150_0": "\\E0Ce,&nu-i des-&tul de&bun?",
+  "obj_shop1_slash_Draw_0_gml_150_0": "\\E0Ce,&nu e pe&placul tău?",
   "obj_shop1_slash_Draw_0_gml_151_0": "\\E3N-ai&destui&bani.",
   "obj_shop1_slash_Draw_0_gml_152_0": "\\E3Cari&prea&multe&chestii.",
   "obj_shop1_slash_Draw_0_gml_153_0": "/*",
@@ -3663,9 +3663,9 @@
   "obj_shop1_slash_Draw_0_gml_233_0": "Am câștigat",
   "obj_shop1_slash_Draw_0_gml_240_0": "Ieși",
   "obj_shop1_slash_Draw_0_gml_244_0": "\\E0N-ai nimic&mai bun&de făcut.",
-  "obj_shop1_slash_Draw_0_gml_278_0": "Vinde iteme",
-  "obj_shop1_slash_Draw_0_gml_279_0": "Vinde arme",
-  "obj_shop1_slash_Draw_0_gml_280_0": "Vinde armuri",
+  "obj_shop1_slash_Draw_0_gml_278_0": "Vinde Iteme",
+  "obj_shop1_slash_Draw_0_gml_279_0": "Vinde Arme",
+  "obj_shop1_slash_Draw_0_gml_280_0": "Vinde Armuri",
   "obj_shop1_slash_Draw_0_gml_281_0": "Înapoi",
   "obj_shop1_slash_Draw_0_gml_285_0": "\\E0Ce tip&de gunoaie&ai?",
   "obj_shop1_slash_Draw_0_gml_286_0": "\\E0Gata pt&asta.",
@@ -3676,8 +3676,8 @@
   "obj_shop1_slash_Draw_0_gml_350_0": "\\E2Mersi că#ai cumpă-#rat.",
   "obj_shop1_slash_Draw_0_gml_351_0": "\\E0Nu?",
   "obj_shop1_slash_Draw_0_gml_352_0": "\\E3Crezi că&VREAU aia?",
-  "obj_shop1_slash_Draw_0_gml_353_0": "\\E0E un&gunoi.",
-  "obj_shop1_slash_Draw_0_gml_365_0": "Vinde-l pt",
+  "obj_shop1_slash_Draw_0_gml_353_0": "\\E0Asta-i&nimic.",
+  "obj_shop1_slash_Draw_0_gml_365_0": "Vinzi pt",
   "obj_shop1_slash_Draw_0_gml_366_0": " ?",
   "obj_shop1_slash_Draw_0_gml_367_0": "Da",
   "obj_shop1_slash_Draw_0_gml_368_0": "Nu",
@@ -6243,6 +6243,7 @@
   "UNUSED_slash_UNUSED_gml_10_0": "Spuneți ceva... vă rog..."
 
 }
+
 
 
 
