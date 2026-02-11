@@ -4466,9 +4466,9 @@
   "scr_itemdesc_slash_scr_itemdesc_gml_53_0": "Un roux întunecat cu o aromă delicată.#Și mai... are viermi. +50HP",
   "scr_iteminfo_slash_scr_iteminfo_gml_14_0": "BomboanăÎnt.",
   "scr_iteminfo_slash_scr_iteminfo_gml_15_0": "Vindecă#40HP",
-  "scr_iteminfo_slash_scr_iteminfo_gml_21_0": "MentăReînvietoare",
+  "scr_iteminfo_slash_scr_iteminfo_gml_21_0": "MentăReînv.",
   "scr_iteminfo_slash_scr_iteminfo_gml_22_0": "Vindecă#aliat#căzut",
-  "scr_iteminfo_slash_scr_iteminfo_gml_28_0": "CiobStrălucitor",
+  "scr_iteminfo_slash_scr_iteminfo_gml_28_0": "CiobStrăl.",
   "scr_iteminfo_slash_scr_iteminfo_gml_29_0": "Vinde#la#butic",
   "scr_iteminfo_slash_scr_iteminfo_gml_35_0": "Manual",
   "scr_iteminfo_slash_scr_iteminfo_gml_36_0": "Citește#în afara#luptei",
@@ -4478,7 +4478,7 @@
   "scr_iteminfo_slash_scr_iteminfo_gml_50_0": "Vindecă#echipa#160HP",
   "scr_iteminfo_slash_scr_iteminfo_gml_56_0": "TortSucit",
   "scr_iteminfo_slash_scr_iteminfo_gml_57_0": "Vindecă#echipa#80HP",
-  "scr_iteminfo_slash_scr_iteminfo_gml_63_0": "BurgerÎntunecat",
+  "scr_iteminfo_slash_scr_iteminfo_gml_63_0": "BurgerÎnt.",
   "scr_iteminfo_slash_scr_iteminfo_gml_64_0": "Vindecă#70HP",
   "scr_iteminfo_slash_scr_iteminfo_gml_70_0": "FursecLancer",
   "scr_iteminfo_slash_scr_iteminfo_gml_71_0": "Vindecă#50HP",
@@ -4486,7 +4486,7 @@
   "scr_iteminfo_slash_scr_iteminfo_gml_78_0": "Vindecă#4HP",
   "scr_iteminfo_slash_scr_iteminfo_gml_84_0": "SenvișDeClub",
   "scr_iteminfo_slash_scr_iteminfo_gml_85_0": "Vindecă#echipa#30HP",
-  "scr_iteminfo_slash_scr_iteminfo_gml_91_0": "GogoașăDeInimi",
+  "scr_iteminfo_slash_scr_iteminfo_gml_91_0": "GogoașăInimă",
   "scr_iteminfo_slash_scr_iteminfo_gml_92_0": "Vindecarea#variază",
   "scr_iteminfo_slash_scr_iteminfo_gml_98_0": "DiamantCioco",
   "scr_iteminfo_slash_scr_iteminfo_gml_99_0": "Vindecarea#variază",
@@ -6243,6 +6243,7 @@
   "UNUSED_slash_UNUSED_gml_10_0": "Spuneți ceva... vă rog..."
 
 }
+
 
 
 
