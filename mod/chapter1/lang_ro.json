@@ -4560,8 +4560,8 @@
   "scr_keyiteminfo_slash_scr_keyiteminfo_gml_36_0": "Cheie Stricată B",
   "scr_keyiteminfo_slash_scr_keyiteminfo_gml_39_0": "E partea de jos a unei chei.#Un fierar poate repara cele trei părți.",
   "scr_keyiteminfo_slash_scr_keyiteminfo_gml_40_0": "Cheie Stricată C",
-  "scr_keyiteminfo_slash_scr_keyiteminfo_gml_41_0": "O umbră ascuțită se mișcă ca apa în mână.#Ai colectat 1.",
-  "scr_keyiteminfo_slash_scr_keyiteminfo_gml_42_0": "CristalUmbros",
+  "scr_keyiteminfo_slash_scr_keyiteminfo_gml_41_0": "O umbră ascuțită se mișcă ca apa în mână.#Ai adunat 1.",
+  "scr_keyiteminfo_slash_scr_keyiteminfo_gml_42_0": "CristalUmbră",
   "scr_kingface_slash_scr_kingface_gml_3_0": "\\TX \\F0 \\E~1 \\FK \\TK %",
   "scr_kingface_slash_scr_kingface_gml_7_0": "\\TX \\F0 \\E~1 \\TK %",
   "scr_lanface_slash_scr_lanface_gml_1_0": "\\TX \\F0 \\E~1 \\FL \\TL %",
@@ -6243,6 +6243,7 @@
   "UNUSED_slash_UNUSED_gml_10_0": "Spuneți ceva... vă rog..."
 
 }
+
 
 
 
