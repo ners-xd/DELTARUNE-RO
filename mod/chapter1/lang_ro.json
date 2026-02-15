@@ -4827,7 +4827,7 @@
   "scr_spelltext_slash_scr_spelltext_gml_82_0": "* ~1 a folosit MENTĂ REÎNVIETOARE!/%",
   "scr_spelltext_slash_scr_spelltext_gml_86_0": "* ~1 a folosit CIOB STRĂLUCITOR!/",
   "scr_spelltext_slash_scr_spelltext_gml_87_0": "* Dar nu s-a întâmplat nimic.../%",
-  "scr_spelltext_slash_scr_spelltext_gml_109_0": "* Ciobul strălucitor a dispărut!/%",
+  "scr_spelltext_slash_scr_spelltext_gml_109_0": "* CIOB STRĂLUCITOR a dispărut!/%",
   "scr_spelltext_slash_scr_spelltext_gml_112_0": "* ~1 a devenit încântat!&",
   "scr_spelltext_slash_scr_spelltext_gml_122_0": "* ~1 a citit MANUALUL!/",
   "scr_spelltext_slash_scr_spelltext_gml_123_0": "* Dar nimic nu s-a întâmplat.../%",
@@ -4843,9 +4843,9 @@
   "scr_spelltext_slash_scr_spelltext_gml_194_0": "* ~1 a folosit FURSEC LANCER!/%",
   "scr_spelltext_slash_scr_spelltext_gml_197_0": "* ~1 a folosit SALATĂ GIGA!/%",
   "scr_spelltext_slash_scr_spelltext_gml_200_0": "* ~1 a folosit SENVIȘ DE CLUB!/%",
-  "scr_spelltext_slash_scr_spelltext_gml_203_0": "* ~1 a folosit GOGOASĂ DE INIMI!/%",
+  "scr_spelltext_slash_scr_spelltext_gml_203_0": "* ~1 a folosit GOGOASĂ INIMĂ!/%",
   "scr_spelltext_slash_scr_spelltext_gml_206_0": "* ~1 a folosit DIAMANT CIOCO!/%",
-  "scr_spelltext_slash_scr_spelltext_gml_209_0": "* ~1 a folosit SENVIȘ FAV!/%",
+  "scr_spelltext_slash_scr_spelltext_gml_209_0": "* ~1 a folosit SENVIȘ FAVORIT!/%",
   "scr_spelltext_slash_scr_spelltext_gml_212_0": "* ~1 a folosit ROUX KAARD!/%",
   "scr_susface_slash_scr_susface_gml_1_0": "\\TX \\F0 \\E~1 \\FS \\TS %",
   "scr_talkroom_slash_scr_talkroom_gml_4_0": "* Vocea ta face ecou fără rost./%",
@@ -5979,7 +5979,7 @@
   "scr_text_slash_scr_text_gml_2657_0": " #Dormi",
   "scr_text_slash_scr_text_gml_2658_0": " #Nu",
   "scr_text_slash_scr_text_gml_2661_0": "* (E patul tău.)/",
-  "scr_text_slash_scr_text_gml_2662_0": "* (Dacă te duci să readormi^1, \\cYe posibil să pierzi multe lucruri importante\\cW.)/",
+  "scr_text_slash_scr_text_gml_2662_0": "* (Dacă te culci înapoi^1, \\cYe posibil să pierzi multe lucruri importante\\cW.)/",
   "scr_text_slash_scr_text_gml_2663_0": "* (O să te duci să te culci?)/",
   "scr_text_slash_scr_text_gml_2664_0": "\\C2 ",
   "scr_text_slash_scr_text_gml_2670_0": " #Dormi!!!",
@@ -6243,3 +6243,4 @@
   "UNUSED_slash_UNUSED_gml_10_0": "Spuneți ceva... vă rog..."
 
 }
+
