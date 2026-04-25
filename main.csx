@@ -97,6 +97,10 @@ void BuildMod(int chapter)
         if(ScriptQuestion("Dorești să fie înlocuit fișierul lang_ro.json cu cel din mod (sau să fie adăugat dacă nu este deja)?"))
             File.Copy(Path.Combine(modDir, $"chapter{chapter}/lang_ro.json"), Path.Combine(gameDir, "lang/lang_ro.json"), true);
 
+    if(chapter == 3)
+        if(ScriptQuestion("Dorești să fie înlocuit fișierul tennaIntroROf1_compressed_28.mp4 cu cel din mod (sau să fie adăugat dacă nu este deja)?"))
+            File.Copy(Path.Combine(modDir, "chapter3/tennaIntroROf1_compressed_28.mp4"), Path.Combine(gameDir, "vid/tennaIntroROf1_compressed_28.mp4"), true);
+
     RunUMTScript(Path.Combine(umtScriptsDir, "ImportFontData.csx"));
 
     if(Directory.Exists(Path.Combine(tempCheck, "sounds")))

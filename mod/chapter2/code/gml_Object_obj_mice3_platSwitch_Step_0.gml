@@ -19,7 +19,7 @@
             if (obj_controller_city_mice3.micescore == 6)
                 snd_play(snd_speak_and_spell_M);
             
-            if (obj_controller_city_mice3.micescore == 7) 
+            if (obj_controller_city_mice3.micescore == 7)
                 snd_play(snd_speak_and_spell_O);
             
             if (obj_controller_city_mice3.micescore == 8)
