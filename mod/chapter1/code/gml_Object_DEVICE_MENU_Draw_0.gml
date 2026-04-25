@@ -33,7 +33,7 @@
 /// REPLACE
             QUITTEXT = "End Program";
 /// CODE
-            QUITTEXT = "Închide Programul";
+            QUITTEXT = "Închide";
 /// END
 
 /// REPLACE

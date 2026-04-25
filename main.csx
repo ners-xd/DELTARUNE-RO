@@ -101,10 +101,10 @@ void BuildMod(int chapter)
         if(ScriptQuestion("Dorești să fie înlocuit fișierul tennaIntroROf1_compressed_28.mp4 cu cel din mod (sau să fie adăugat dacă nu este deja)?"))
             File.Copy(Path.Combine(modDir, "chapter3/tennaIntroROf1_compressed_28.mp4"), Path.Combine(gameDir, "vid/tennaIntroROf1_compressed_28.mp4"), true);
 
-    RunUMTScript(Path.Combine(umtScriptsDir, "ImportFontData.csx"));
+    RunUMTScript(Path.Combine(umtScriptsDir, "ImportFonts.csx"));
 
     if(Directory.Exists(Path.Combine(tempCheck, "sounds")))
-        RunUMTScript(Path.Combine(umtScriptsDir, "ImportASound.csx"));
+        RunUMTScript(Path.Combine(umtScriptsDir, "ImportSingleSound.csx"));
 
     if(Directory.Exists(Path.Combine(tempCheck, "sprites")))
         RunUMTScript(Path.Combine(umtScriptsDir, "ImportGraphics.csx"));
