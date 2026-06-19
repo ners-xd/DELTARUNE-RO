@@ -86,7 +86,7 @@ foreach (Atlas atlas in packer.Atlasses)
 
 public void fontUpdate(UndertaleFont newFont)
 {
-    using (StreamReader reader = new StreamReader(Path.Combine(sourcePath, $"glyphs_{newFont.Name.Content}.csv")))
+    using (StreamReader reader = new StreamReader(UndertaleModLib.Util.Paths.JoinVerifyWithinDirectory(sourcePath, $"glyphs_{newFont.Name.Content}.csv")))
     {
         newFont.Glyphs.Clear();
         string line;
