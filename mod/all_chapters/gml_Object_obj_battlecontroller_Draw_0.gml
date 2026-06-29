@@ -42,6 +42,7 @@
     draw_text(xx + spell_offset, yy + 440, string_hash_to_newline(string(thiscost) + "% PT"));
 /// END
 
+#if CHAPTER_1 || CHAPTER_2 || CHAPTER_3 || CHAPTER_4
 /// REPLACE
     if (thiscost > 0)
         draw_text(xx + spell_offset, yy + 440, string_hash_to_newline(string(thiscost) + "% TP"));
@@ -49,6 +50,15 @@
     if (thiscost > 0)
         draw_text(xx + spell_offset, yy + 440, string_hash_to_newline(string(thiscost) + "% PT"));
 /// END
+#else
+/// REPLACE
+        if (thiscost > 0)
+            draw_text(xx + spell_offset, yy + 440, string_hash_to_newline(string(thiscost) + "% TP"));
+/// CODE
+        if (thiscost > 0)
+            draw_text(xx + spell_offset, yy + 440, string_hash_to_newline(string(thiscost) + "% PT"));
+/// END
+#endif
 
 /// REPLACE
         draw_text(xx + 500, yy + 440, string_hash_to_newline(string(thiscost) + "% TP"));
