@@ -38,7 +38,7 @@
     else
         draw_sprite_ext(spr, 0, xx + 118, yy + 82, 2, 2, 0, c_white, 1);
 /// END
-#elsif CHAPTER_1 || CHAPTER_3
+#elsif CHAPTER_1 || CHAPTER_3 || CHAPTER_4
 /// REPLACE
     draw_sprite_ext(_spr_dmenu_captions, 0, xx + 118, yy + 86, 2, 2, 0, c_white, 1);
 /// CODE
@@ -78,7 +78,7 @@
         draw_sprite_ext(spr_dmenu_captions, 6, xx + 340, yy + 225, 1, 1, 0, c_white, 1);
     }
 /// END
-#elsif CHAPTER_1 || CHAPTER_3
+#elsif CHAPTER_1 || CHAPTER_3 || CHAPTER_4
 /// REPLACE
     draw_sprite_ext(_spr_dmenu_captions, 5, xx + 380, yy + 210, 2, 2, 0, c_white, 1);
     

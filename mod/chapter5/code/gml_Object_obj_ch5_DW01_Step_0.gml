@@ -1,7 +1,7 @@
 /// PATCH
 
 /// REPLACE
-        if (global.lang == "ja")
+    if (global.lang == "ja")
     {
         c_customfunc(function()
         {
@@ -13,9 +13,8 @@
     {
         c_msgset(0, "\\E2\\VO* Ah^1, sorry^1, m'lady./%");
     }
-    
 /// CODE
-        if (global.lang == "ja")
+    if (global.lang == "ja")
     {
         c_customfunc(function()
         {
@@ -27,7 +26,6 @@
     {
         c_msgset(0, "\\E2\\VO* Ah^1, iartă-mă^1, draga mea./%");
     }
-    
 /// END
 
 /// REPLACE
@@ -43,7 +41,6 @@
     {
         c_msgset(0, "\\E0\\VH* ..^1. and best friend./");
     }
-
 /// CODE
     if (global.lang == "ja")
     {
@@ -70,4 +67,3 @@
     else
         c_msgnext("\\E0\\V1* Heh^1. Nu vreau să te fac să aștepți^1, prietene./");
 /// END
-
