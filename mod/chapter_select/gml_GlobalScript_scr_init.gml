@@ -22,6 +22,8 @@
             return (global.lang == "en") ? "Prophecy" : "予言";
 /// CODE
             return (global.lang == "en") ? "Profeția" : "予言";
+/// END
+
 /// CODE
             return (global.lang == "en") ? "Festival Day" : "お祭り";
 /// REPLACE
