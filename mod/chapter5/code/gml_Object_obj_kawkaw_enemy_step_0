@@ -1,0 +1,30 @@
+/// PATCH
+
+/// REPLACE
+    if (acting == 3 && actcon == 0)
+    {
+        msgsetsubloc(0, "* ~1 repeatedly to Call Over!&* ~2 repeatedly to Shoo!", scr_get_input_name(4), scr_get_input_name(6), "obj_kawkaw_enemy_slash_Step_0_gml_211_0");
+        scr_battletext_default();
+        
+        with (obj_writer)
+        {
+            rate = 33;
+            pos = 60;
+        }
+        
+        acting = 101;
+    }
+/// CODE
+    if (acting == 3 && actcon == 0)
+    {
+        msgsetsubloc(0, "* ~1 repeatedly to Call Over!&* ~2 repeatedly to Shoo!", scr_get_input_name(4), scr_get_input_name(6), "obj_kawkaw_enemy_slash_Step_0_gml_211_0");
+        scr_battletext_default();
+        
+        with (obj_writer)
+        {
+            rate = 33;
+            pos = 63;
+        }
+        
+        acting = 101;
+    }
