@@ -23,7 +23,7 @@
         with (obj_writer)
         {
             rate = 33;
-            pos = 63;
+            pos = string_length(global.msg[0]) + 1;
         }
         
         acting = 101;
